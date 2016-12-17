@@ -50,7 +50,9 @@
           <argument>
             <kind>1</kind>
             <string>    // This is called once every frame
-    if (IsKeyPressed(Keys.action1)) {
+    if (IsKeyPressed(Keys.action1)) 
+    {
+        NewGameSetup();
         room_goto(GetRoomNumber("DefaultRoom"));
     }
 </string>

@@ -25,10 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>    BaseSpeed = 2;//ayy lmao
+            <string>    BaseSpeed = 1;//ayy lmao
     CurrentDirection = Directions.down;
     IsWalking = false;
     CanMove = true;
+    AnimationSpeed = 0.1;
 </string>
           </argument>
         </arguments>
@@ -52,22 +53,27 @@
           <argument>
             <kind>1</kind>
             <string>    // Handle Movement
-    var curSpeed = BaseSpeed * DeltaTime;
+    IsWalking = false;
+    var curSpeed = BaseSpeed * global.DeltaTime;
     if (CanMove) {
         if (IsKeyPressed(Keys.up)) {
             MoveObject(curSpeed, Directions.up, true);
+            IsWalking = true;
             CurrentDirection = Directions.up;
         }
         else if (IsKeyPressed(Keys.down)) {
             MoveObject(curSpeed, Directions.down, true);
+            IsWalking = true;
             CurrentDirection = Directions.down;
         }
         else if (IsKeyPressed(Keys.right)) {
             MoveObject(curSpeed, Directions.right, true);
+            IsWalking = true;
             CurrentDirection = Directions.right;
         }
         else if (IsKeyPressed(Keys.left)) {
             MoveObject(curSpeed, Directions.left, true);
+            IsWalking = true;
             CurrentDirection = Directions.left;
         }
     }
@@ -98,6 +104,32 @@
           <argument>
             <kind>1</kind>
             <string>//    draw_self();
+//image_index = 0;
+if (IsWalking)
+{
+    image_speed = AnimationSpeed * global.DeltaTime
+}
+else 
+{
+    image_speed = 0;
+}
+if (CurrentDirection == Directions.down)
+{
+    sprite_index = PlayerDown;
+}
+else if (CurrentDirection == Directions.right)
+{
+    sprite_index = spr_playerRight;
+}
+else if (CurrentDirection == Directions.left)
+{
+    sprite_index = spr_playerLeft;
+}
+else if (CurrentDirection == Directions.up)
+{
+    sprite_index = spr_playerUp;
+}
+
 draw_sprite(sprite_index, image_index, floor(x), floor(y));
 </string>
           </argument>

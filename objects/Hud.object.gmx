@@ -81,6 +81,8 @@
     {
         draw_text(0, 0, "FPS = " + string(fps));
     }
+    
+    draw_text(64,16, string(GameManager.MapX) + ", " + string(GameManager.MapY));
 </string>
           </argument>
         </arguments>

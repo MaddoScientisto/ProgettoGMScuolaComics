@@ -7,10 +7,13 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\PlayerDown</sprite>
+    <sprite>sprites\spr_playerUp</sprite>
     <sprite>sprites\Block</sprite>
     <sprite>sprites\HudBackground</sprite>
     <sprite>sprites\EmptySprite</sprite>
     <sprite>sprites\HudSprite</sprite>
+    <sprite>sprites\spr_playerRight</sprite>
+    <sprite>sprites\spr_playerLeft</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
@@ -24,6 +27,8 @@
     <script>scripts\CreateCollisions.gml</script>
     <script>scripts\GetRoomNumber.gml</script>
     <script>scripts\StartSetup.gml</script>
+    <script>scripts\NewGameSetup.gml</script>
+    <script>scripts\RoomTransition.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Player</object>
@@ -33,14 +38,19 @@
     <object>objects\GameManager</object>
     <object>objects\Hud</object>
     <object>objects\MainMenuController</object>
+    <object>objects\obj_player_platform</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>
     <room>rooms\room_0_0</room>
+    <room>rooms\room_0_1</room>
+    <room>rooms\room_1_0</room>
   </rooms>
-  <constants number="6">
+  <constants number="8">
+    <constant name="BaseResolutionX">160</constant>
+    <constant name="BaseResolutionY">144</constant>
+    <constant name="GameScale">4</constant>
     <constant name="TargetFramerate">60</constant>
-    <constant name="DeltaTime">CalculateDeltaTime(TargetFramerate)</constant>
     <constant name="SolidLayer">-5</constant>
     <constant name="MapSnapX">16</constant>
     <constant name="MapSnapY">16</constant>

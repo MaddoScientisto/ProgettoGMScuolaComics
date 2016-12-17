@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>    // Initialise your object here
     CreateCollisions(MapSnapX, MapSnapY, SolidLayer, SolidObject);
+    
+    instance_create(GameManager.PlayerStartX,GameManager.PlayerStartY,Player);
 </string>
           </argument>
         </arguments>
@@ -50,6 +52,23 @@
           <argument>
             <kind>1</kind>
             <string>    // This is called once every frame
+    if (Player.y &gt; room_height - 16)
+    {
+        // Initiate room transition
+        RoomTransition(Directions.down);
+    }
+    else if (Player.y &lt; 16) 
+    {
+        RoomTransition(Directions.up);
+    }
+    else if (Player.x &gt; room_width - 16)
+    {
+        RoomTransition(Directions.right);
+    }
+    else if (Player.x &lt;= 0)
+    {
+        RoomTransition(Directions.left);
+    }
     
 </string>
           </argument>
