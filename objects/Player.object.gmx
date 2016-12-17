@@ -30,6 +30,10 @@
     IsWalking = false;
     CanMove = true;
     AnimationSpeed = 0.1;
+    GravityMode = true;
+    Gravity = 0.2;
+    VerticalSpeed = 0;
+    JumpSpeed = 3;
 </string>
           </argument>
         </arguments>
@@ -55,13 +59,14 @@
             <string>    // Handle Movement
     IsWalking = false;
     var curSpeed = BaseSpeed * global.DeltaTime;
+    var curGravity = Gravity * global.DeltaTime;
     if (CanMove) {
-        if (IsKeyPressed(Keys.up)) {
+        if (IsKeyPressed(Keys.up) &amp;&amp; !GravityMode) {
             MoveObject(curSpeed, Directions.up, true);
             IsWalking = true;
             CurrentDirection = Directions.up;
         }
-        else if (IsKeyPressed(Keys.down)) {
+        else if (IsKeyPressed(Keys.down) &amp;&amp; !GravityMode) {
             MoveObject(curSpeed, Directions.down, true);
             IsWalking = true;
             CurrentDirection = Directions.down;
@@ -76,11 +81,55 @@
             IsWalking = true;
             CurrentDirection = Directions.left;
         }
+        
+    }
+    
+    if (GravityMode) 
+    {
+        if (VerticalSpeed &lt; 10) VerticalSpeed += curGravity;
+    
+        if (IsKeyPressed(Keys.action1)) {
+            
+            if (place_meeting(x,y+VerticalSpeed,Wall))
+            {
+                VerticalSpeed = -JumpSpeed * global.DeltaTime;
+            }
+        
+        }
+        
+        if (place_meeting(x,y+VerticalSpeed,Wall))
+        {
+            while(!place_meeting(x,y+sign(VerticalSpeed),Wall))
+            {
+                y += sign(VerticalSpeed);
+            }
+            VerticalSpeed = 0;
+        }
+        
+        y += VerticalSpeed;
+        
+        //MoveObject(curGravity, Directions.down, true);
     }
 
-    // Handle Sprite
-    
+ // Shooting
+ 
+ if (IsKeyPressed(Keys.action2)) {
+     var bullet = instance_create(x,y,obj_bullet);
+     //bullet.CurrentDirection = CurrentDirection;
+     //with (bullet)
+     //{
+        //bullet.speed = 5;
+        bullet.CurrentDirection = CurrentDirection;
 
+     //}
+ }
+    
+if (IsKeyPressed(Keys.cancel)) {
+   
+        GravityMode = !GravityMode;
+
+
+}
 </string>
           </argument>
         </arguments>

@@ -14,6 +14,7 @@
     <sprite>sprites\HudSprite</sprite>
     <sprite>sprites\spr_playerRight</sprite>
     <sprite>sprites\spr_playerLeft</sprite>
+    <sprite>sprites\spr_bullet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
@@ -39,6 +40,8 @@
     <object>objects\Hud</object>
     <object>objects\MainMenuController</object>
     <object>objects\obj_player_platform</object>
+    <object>objects\obj_bullet</object>
+    <object>objects\SolidObject</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>
