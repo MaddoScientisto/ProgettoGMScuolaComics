@@ -34,6 +34,8 @@
     Gravity = 0.2;
     VerticalSpeed = 0;
     JumpSpeed = 3;
+    HasHighJump = false;
+    HighJumpPower = 1.5;
 </string>
           </argument>
         </arguments>
@@ -88,18 +90,25 @@
     {
         if (VerticalSpeed &lt; 10) VerticalSpeed += curGravity;
     
+        // Jump
         if (IsKeyPressed(Keys.action1)) {
             
-            if (place_meeting(x,y+VerticalSpeed,Wall))
+           // check if player is grounded
+            if (place_meeting(x,y+VerticalSpeed,SolidObject))
             {
-                VerticalSpeed = -JumpSpeed * global.DeltaTime;
+                if (!HasHighJump)                       
+                   VerticalSpeed = -JumpSpeed * global.DeltaTime;
+                else
+                    VerticalSpeed = -(JumpSpeed*HighJumpPower) * global.DeltaTime;
+                
             }
         
         }
         
-        if (place_meeting(x,y+VerticalSpeed,Wall))
+        // Collision
+        if (place_meeting(x,y+VerticalSpeed,SolidObject))
         {
-            while(!place_meeting(x,y+sign(VerticalSpeed),Wall))
+            while(!place_meeting(x,y+sign(VerticalSpeed),SolidObject))
             {
                 y += sign(VerticalSpeed);
             }

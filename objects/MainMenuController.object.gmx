@@ -79,7 +79,7 @@
             <kind>1</kind>
             <string>    // Draw to the screen here
 //    draw_self();
-    draw_text(16,16, "Press Z");
+    draw_text(16,16, "Press Z to start");
 </string>
           </argument>
         </arguments>

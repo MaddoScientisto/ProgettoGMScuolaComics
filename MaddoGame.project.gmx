@@ -15,6 +15,12 @@
     <sprite>sprites\spr_playerRight</sprite>
     <sprite>sprites\spr_playerLeft</sprite>
     <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\spr_tutorial</sprite>
+    <sprite>sprites\spr_springBlock</sprite>
+    <sprite>sprites\spr_enemy</sprite>
+    <sprite>sprites\spr_highJumpBoots</sprite>
+    <sprite>sprites\spr_spikes</sprite>
+    <sprite>sprites\spr_theEnd</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
@@ -30,6 +36,9 @@
     <script>scripts\StartSetup.gml</script>
     <script>scripts\NewGameSetup.gml</script>
     <script>scripts\RoomTransition.gml</script>
+    <script>scripts\ReverseDirection.gml</script>
+    <script>scripts\CheckCollision.gml</script>
+    <script>scripts\HugWall.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Player</object>
@@ -42,14 +51,29 @@
     <object>objects\obj_player_platform</object>
     <object>objects\obj_bullet</object>
     <object>objects\SolidObject</object>
+    <object>objects\obj_tutorial</object>
+    <object>objects\obj_springBlock</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\Collectible</object>
+    <object>objects\obj_highJumpBoots</object>
+    <object>objects\obj_hurt</object>
+    <object>objects\obj_enemyParent</object>
+    <object>objects\obj_spikes</object>
+    <object>objects\obj_endOfDemoSign</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>
     <room>rooms\room_0_0</room>
     <room>rooms\room_0_1</room>
     <room>rooms\room_1_0</room>
+    <room>rooms\room_2_0</room>
+    <room>rooms\room_3_0</room>
+    <room>rooms\room_3_1</room>
+    <room>rooms\room_2_1</room>
+    <room>rooms\room_4_0</room>
+    <room>rooms\room_5_0</room>
   </rooms>
-  <constants number="8">
+  <constants number="7">
     <constant name="BaseResolutionX">160</constant>
     <constant name="BaseResolutionY">144</constant>
     <constant name="GameScale">4</constant>
@@ -57,7 +81,6 @@
     <constant name="SolidLayer">-5</constant>
     <constant name="MapSnapX">16</constant>
     <constant name="MapSnapY">16</constant>
-    <constant name="SolidObject">Wall</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>

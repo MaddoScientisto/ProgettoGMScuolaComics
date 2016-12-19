@@ -80,6 +80,7 @@
     if debug_mode
     {
         draw_text(0, 0, "FPS = " + string(fps));
+        //draw_text(64, 0, "GameManagers = " + string(instance_number(GameManager)));
     }
     
     draw_text(64,16, string(GameManager.MapX) + ", " + string(GameManager.MapY));

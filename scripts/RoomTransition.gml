@@ -24,11 +24,17 @@ else if (dir == Directions.up) {
     GameManager.PlayerStartX = Player.x;
 }
 
-
+GameManager.GravityMode = Player.GravityMode;
+GameManager.PlayerVspeed = Player.VerticalSpeed;
+GameManager.HasHighJump = Player.HasHighJump;
 
 var newMapName = "room_"+string(GameManager.MapX)+"_"+string(GameManager.MapY);
-
+var newMap = asset_get_index(newMapName);
+if (newMap == -1)
+{
+    newMap = 0;
+}
 // todo: controllo di esistenza
 //room_goto(GetRoomNumber(newMapName));
-room_goto(asset_get_index(newMapName)); // todo: non funziona in html5, conviene fare una tabella di corrispondenza
+room_goto(newMap); // todo: non funziona in html5, conviene fare una tabella di corrispondenza
 

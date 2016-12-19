@@ -2,13 +2,13 @@
 <object>
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
-  <depth>-10</depth>
+  <visible>-1</visible>
+  <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
+    <event eventtype="4" ename="Player">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,54 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>    // Initialise your object here
-    CreateCollisions(MapSnapX, MapSnapY, SolidLayer, Wall);
-    
-    var player = instance_create(GameManager.PlayerStartX,GameManager.PlayerStartY,Player);
-    player.GravityMode = GameManager.GravityMode;
-    player.VerticalSpeed = GameManager.PlayerVspeed;
-    player.HasHighJump = GameManager.HasHighJump;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>    // This is called once every frame
-    if (Player.y &gt; room_height - 16)
-    {
-        // Initiate room transition
-        RoomTransition(Directions.down);
-    }
-    else if (Player.y &lt; 16) 
-    {
-        RoomTransition(Directions.up);
-    }
-    else if (Player.x &gt; room_width - 16)
-    {
-        RoomTransition(Directions.right);
-    }
-    else if (Player.x &lt;= 0)
-    {
-        RoomTransition(Directions.left);
-    }
-    
+            <string>room_goto(0);
 </string>
           </argument>
         </arguments>
