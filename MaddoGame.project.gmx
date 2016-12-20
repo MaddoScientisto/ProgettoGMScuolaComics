@@ -21,6 +21,7 @@
     <sprite>sprites\spr_highJumpBoots</sprite>
     <sprite>sprites\spr_spikes</sprite>
     <sprite>sprites\spr_theEnd</sprite>
+    <sprite>sprites\sprite15</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>

@@ -33,6 +33,10 @@ else if (key == Keys.pause)
 {
     return (keyboard_check_pressed(vk_pause)); // todo: change
 }
+else if (key == Keys.esc)
+{
+    return (keyboard_check_pressed(vk_escape));
+}
 else
 {
     return false;

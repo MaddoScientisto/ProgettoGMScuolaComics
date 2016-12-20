@@ -49,7 +49,10 @@
           <argument>
             <kind>1</kind>
             <string>    // This is called once every frame
-    
+    if (IsKeyPressed(Keys.esc))
+    {
+        room_goto(0);
+    }
 </string>
           </argument>
         </arguments>
@@ -99,7 +102,7 @@ if (instance_number(GameManager)&gt; 1)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>StartSetup();
+            <string>StartSetup(1);
 </string>
           </argument>
         </arguments>

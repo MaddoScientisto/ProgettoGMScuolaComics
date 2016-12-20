@@ -83,7 +83,11 @@
         //draw_text(64, 0, "GameManagers = " + string(instance_number(GameManager)));
     }
     
-    draw_text(64,16, string(GameManager.MapX) + ", " + string(GameManager.MapY));
+    draw_text(0,0,"Pos: " + string(GameManager.MapX) + ", " + string(GameManager.MapY));
+    if (Player.HasHighJump)
+    {
+        draw_sprite(spr_highJumpBoots,0,144,0);
+    }
 </string>
           </argument>
         </arguments>

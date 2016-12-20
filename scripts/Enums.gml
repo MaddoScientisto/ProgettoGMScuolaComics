@@ -8,5 +8,5 @@ enum Directions {
    }
 
 enum Keys {
-up, down, left, right, action1, action2, cancel, pause, none
+up, down, left, right, action1, action2, cancel, pause, esc, none
 }
