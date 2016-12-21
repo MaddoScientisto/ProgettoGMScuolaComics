@@ -62,6 +62,7 @@
     <object>objects\obj_spikes</object>
     <object>objects\obj_endOfDemoSign</object>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\Start</room>
     <room>rooms\room_0_0</room>

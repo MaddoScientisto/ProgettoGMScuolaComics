@@ -85,10 +85,11 @@
         }
         
     }
-    
+    if (VerticalSpeed &lt; 10) VerticalSpeed += curGravity;
+    if (VerticalSpeed &lt; -20) VerticalSpeed = 20;
     if (GravityMode) 
     {
-        if (VerticalSpeed &lt; 10) VerticalSpeed += curGravity;
+        
     
         // Jump
         if (IsKeyPressed(Keys.action1)) {
