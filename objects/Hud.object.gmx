@@ -81,6 +81,7 @@
     {
         draw_text(64, 0, "FPS = " + string(fps));
         draw_text(64, 8, "FPS (REAL) = " + string(fps_real));
+        draw_text_colour(0,32, "VSPEED: " + string(Player.VerticalSpeed), c_white, c_white, c_white, c_white, 1);
         //draw_text(64, 0, "GameManagers = " + string(instance_number(GameManager)));
     }
     
@@ -89,6 +90,8 @@
     {
         draw_sprite(spr_highJumpBoots,0,144,0);
     }
+    
+    
 </string>
           </argument>
         </arguments>

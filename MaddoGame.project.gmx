@@ -75,6 +75,7 @@
       <object>objects\obj_homingBullet</object>
     </objects>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\Start</room>
     <room>rooms\room_0_0</room>
