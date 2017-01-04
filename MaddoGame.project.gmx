@@ -8,7 +8,6 @@
   <sprites name="sprites">
     <sprite>sprites\PlayerDown</sprite>
     <sprite>sprites\spr_playerUp</sprite>
-    <sprite>sprites\Block</sprite>
     <sprite>sprites\HudBackground</sprite>
     <sprite>sprites\EmptySprite</sprite>
     <sprite>sprites\HudSprite</sprite>
@@ -23,6 +22,13 @@
     <sprite>sprites\spr_theEnd</sprite>
     <sprite>sprites\sprite15</sprite>
     <sprite>sprites\spr_turret</sprite>
+    <sprite>sprites\spr_healthBar</sprite>
+    <sprite>sprites\spr_healthPickup</sprite>
+    <sprite>sprites\spr_gun</sprite>
+    <sprites name="Blocks">
+      <sprite>sprites\Block</sprite>
+      <sprite>sprites\spr_gunBlock1</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
@@ -48,7 +54,6 @@
   </fonts>
   <objects name="objects">
     <object>objects\Player</object>
-    <object>objects\Wall</object>
     <object>objects\InputManager</object>
     <object>objects\RoomManager</object>
     <object>objects\GameManager</object>
@@ -74,8 +79,13 @@
     <objects name="Bullets">
       <object>objects\obj_homingBullet</object>
     </objects>
+    <object>objects\obj_health</object>
+    <object>objects\obj_gun</object>
+    <objects name="Blocks">
+      <object>objects\Wall</object>
+      <object>objects\obj_gunBlock1</object>
+    </objects>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\Start</room>
     <room>rooms\room_0_0</room>
@@ -87,6 +97,9 @@
     <room>rooms\room_2_1</room>
     <room>rooms\room_4_0</room>
     <room>rooms\room_5_0</room>
+    <room>rooms\room_1_1</room>
+    <room>rooms\room_1_2</room>
+    <room>rooms\room_0_2</room>
   </rooms>
   <constants number="7">
     <constant name="BaseResolutionX">160</constant>

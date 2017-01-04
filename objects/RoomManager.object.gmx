@@ -26,12 +26,18 @@
           <argument>
             <kind>1</kind>
             <string>    // Initialise your object here
+    instance_create(0,0,Hud);
     CreateCollisions(MapSnapX, MapSnapY, SolidLayer, Wall);
     
     var player = instance_create(GameManager.PlayerStartX,GameManager.PlayerStartY,Player);
     player.GravityMode = GameManager.GravityMode;
     player.VerticalSpeed = GameManager.PlayerVspeed;
     player.HasHighJump = GameManager.HasHighJump;
+    player.Health = GameManager.Health;
+    player.MaxHealth = GameManager.MaxHealth;
+    player.GunLevel = GameManager.GunLevel;
+    
+
 </string>
           </argument>
         </arguments>

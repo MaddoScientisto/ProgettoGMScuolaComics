@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1024</w>
+    <w>928</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>30</xoffset>
-    <yoffset>6</yoffset>
+    <page>4</page>
+    <xoffset>-166</xoffset>
+    <yoffset>-216</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="Tilemap001" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="RoomManager" x="-16" y="16" name="inst_D577F04B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Hud" x="0" y="0" name="inst_1CE4C955" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tutorial" x="16" y="32" name="inst_A2826B3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

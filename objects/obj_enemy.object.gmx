@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Direction = Directions.right;
+            <string>event_inherited();
+Direction = Directions.right;
 BaseSpeed = 1;
 </string>
           </argument>

@@ -80,6 +80,16 @@ if (instance_number(GameManager)&gt; 1)
 {
     instance_destroy();
 }
+
+//view_visible[0] = true;
+//view_wport[0] = 160;
+//view_hport[0] = 144;
+
+//view_wview[0] = 160;
+//view_wview[0] = 144;
+
+
+room_speed = 60;
 </string>
           </argument>
         </arguments>

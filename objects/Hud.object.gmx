@@ -82,6 +82,7 @@
         draw_text(64, 0, "FPS = " + string(fps));
         draw_text(64, 8, "FPS (REAL) = " + string(fps_real));
         draw_text_colour(0,32, "VSPEED: " + string(Player.VerticalSpeed), c_white, c_white, c_white, c_white, 1);
+        draw_text(0,40, "InvTimer: " + string(Player.InvulnerabilityTimer));
         //draw_text(64, 0, "GameManagers = " + string(instance_number(GameManager)));
     }
     
@@ -91,6 +92,12 @@
         draw_sprite(spr_highJumpBoots,0,144,0);
     }
     
+//    draw_text(0,8,"Health: " + string(Player.Health));
+    draw_text(0,8,"Health:");
+    for (var i = 0; i &lt; Player.Health; i++)
+    {
+        draw_sprite(spr_healthBar,0,32+(2*i),8);
+    }
     
 </string>
           </argument>
