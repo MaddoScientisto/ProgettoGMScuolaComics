@@ -105,6 +105,13 @@
         
         }
         
+        if (IsKeyReleased(Keys.action1)) {
+            if (sign(VerticalSpeed) == -1)
+            {
+                VerticalSpeed /= 1.5;
+            }
+        }
+        
         // Collision
         if (place_meeting(x,y+VerticalSpeed,SolidObject))
         {

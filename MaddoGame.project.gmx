@@ -22,6 +22,7 @@
     <sprite>sprites\spr_spikes</sprite>
     <sprite>sprites\spr_theEnd</sprite>
     <sprite>sprites\sprite15</sprite>
+    <sprite>sprites\spr_turret</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
@@ -40,7 +41,11 @@
     <script>scripts\ReverseDirection.gml</script>
     <script>scripts\CheckCollision.gml</script>
     <script>scripts\HugWall.gml</script>
+    <script>scripts\IsKeyReleased.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\pixelfont</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Player</object>
     <object>objects\Wall</object>
@@ -48,19 +53,27 @@
     <object>objects\RoomManager</object>
     <object>objects\GameManager</object>
     <object>objects\Hud</object>
-    <object>objects\MainMenuController</object>
     <object>objects\obj_player_platform</object>
     <object>objects\obj_bullet</object>
     <object>objects\SolidObject</object>
     <object>objects\obj_tutorial</object>
     <object>objects\obj_springBlock</object>
-    <object>objects\obj_enemy</object>
     <object>objects\Collectible</object>
     <object>objects\obj_highJumpBoots</object>
     <object>objects\obj_hurt</object>
-    <object>objects\obj_enemyParent</object>
     <object>objects\obj_spikes</object>
     <object>objects\obj_endOfDemoSign</object>
+    <objects name="Title Screen">
+      <object>objects\MainMenuController</object>
+    </objects>
+    <objects name="Enemies">
+      <object>objects\obj_enemy</object>
+      <object>objects\obj_enemyParent</object>
+      <object>objects\obj_turret</object>
+    </objects>
+    <objects name="Bullets">
+      <object>objects\obj_homingBullet</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>

@@ -79,7 +79,8 @@
     //draw_sprite(HudBackground,0,0,0);
     if debug_mode
     {
-        draw_text(0, 0, "FPS = " + string(fps));
+        draw_text(64, 0, "FPS = " + string(fps));
+        draw_text(64, 8, "FPS (REAL) = " + string(fps_real));
         //draw_text(64, 0, "GameManagers = " + string(instance_number(GameManager)));
     }
     

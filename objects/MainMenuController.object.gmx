@@ -90,11 +90,13 @@
             <kind>1</kind>
             <string>    // Draw to the screen here
 //    draw_self();
+draw_set_font(pixelfont);
 draw_text(16,16, "Press Z to start");
 draw_text(16,32, "Up: Increase");
 draw_text(16,48, "screen scale");
 draw_text(16,64, "Down: Decrease");
 draw_text(16,80, "screen scale");
+
 </string>
           </argument>
         </arguments>
