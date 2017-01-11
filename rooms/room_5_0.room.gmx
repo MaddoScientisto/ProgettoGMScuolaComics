@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>984</w>
+    <w>960</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>-1</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>4</page>
-    <xoffset>-131</xoffset>
-    <yoffset>-102</yoffset>
+    <page>0</page>
+    <xoffset>140</xoffset>
+    <yoffset>6</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -52,8 +52,9 @@
   </views>
   <instances>
     <instance objName="RoomManager" x="-16" y="16" name="inst_21392090" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="112" y="112" name="inst_15507CF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_endOfDemoSign" x="32" y="48" name="inst_C26AD303" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_boss" x="112" y="80" name="inst_CD70A3B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bossWall" x="144" y="112" name="inst_A17AF891" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bossWall" x="144" y="96" name="inst_221A8D2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="0" y="16" w="16" h="16" xo="16" yo="0" id="10000831" name="inst_2F2DB9E2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -146,8 +147,6 @@
     <tile bgName="Tilemap001" x="112" y="128" w="16" h="16" xo="0" yo="0" id="10000950" name="inst_66E33266" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="128" y="128" w="16" h="16" xo="0" yo="0" id="10000951" name="inst_C2F98F94" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="144" y="128" w="16" h="16" xo="0" yo="0" id="10000952" name="inst_BBC9A37A" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="144" y="112" w="16" h="16" xo="0" yo="0" id="10000953" name="inst_D10D0F8C" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="144" y="96" w="16" h="16" xo="0" yo="0" id="10000954" name="inst_070C6763" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="144" y="80" w="16" h="16" xo="0" yo="0" id="10000955" name="inst_D30E8F1D" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="144" y="32" w="16" h="16" xo="0" yo="0" id="10000958" name="inst_F0E7BF2D" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="144" y="16" w="16" h="16" xo="0" yo="0" id="10000959" name="inst_16430A60" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

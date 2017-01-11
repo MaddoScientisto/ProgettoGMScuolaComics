@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>968</w>
+    <w>1016</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>4</page>
-    <xoffset>-48</xoffset>
-    <yoffset>-109</yoffset>
+    <page>0</page>
+    <xoffset>-76</xoffset>
+    <yoffset>-38</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -54,6 +54,12 @@
     <instance objName="RoomManager" x="-16" y="0" name="inst_0E05F3DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_springBlock" x="80" y="112" name="inst_DE4B8F69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_springBlock" x="64" y="112" name="inst_F0A4158C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gunBlock1" x="32" y="80" name="inst_6444E083" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gunBlock1" x="32" y="64" name="inst_16332AC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gunBlock1" x="32" y="48" name="inst_77E487BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gunBlock1" x="32" y="32" name="inst_5EE2171B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_healthUpgrade" x="16" y="96" name="inst_18C47C41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_springBlock" x="80" y="64" name="inst_460504AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="128" y="32" w="16" h="16" xo="16" yo="0" id="10000226" name="inst_0087498C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

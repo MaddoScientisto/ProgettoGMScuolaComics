@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\music</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\PlayerDown</sprite>
     <sprite>sprites\spr_playerUp</sprite>
@@ -24,6 +26,7 @@
     <sprite>sprites\spr_turret</sprite>
     <sprite>sprites\spr_healthBar</sprite>
     <sprite>sprites\spr_healthPickup</sprite>
+    <sprite>sprites\spr_healthUpgrade</sprite>
     <sprite>sprites\spr_gun</sprite>
     <sprites name="Blocks">
       <sprite>sprites\Block</sprite>
@@ -48,6 +51,9 @@
     <script>scripts\CheckCollision.gml</script>
     <script>scripts\HugWall.gml</script>
     <script>scripts\IsKeyReleased.gml</script>
+    <scripts name="Array">
+      <script>scripts\InitArray.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\pixelfont</font>
@@ -75,6 +81,7 @@
       <object>objects\obj_enemy</object>
       <object>objects\obj_enemyParent</object>
       <object>objects\obj_turret</object>
+      <object>objects\obj_boss</object>
     </objects>
     <objects name="Bullets">
       <object>objects\obj_homingBullet</object>
@@ -83,8 +90,10 @@
     <object>objects\obj_gun</object>
     <objects name="Blocks">
       <object>objects\Wall</object>
+      <object>objects\obj_bossWall</object>
       <object>objects\obj_gunBlock1</object>
     </objects>
+    <object>objects\obj_healthUpgrade</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>
@@ -97,6 +106,7 @@
     <room>rooms\room_2_1</room>
     <room>rooms\room_4_0</room>
     <room>rooms\room_5_0</room>
+    <room>rooms\room_6_0</room>
     <room>rooms\room_1_1</room>
     <room>rooms\room_1_2</room>
     <room>rooms\room_0_2</room>

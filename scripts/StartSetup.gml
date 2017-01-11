@@ -18,3 +18,4 @@ display_set_gui_size(BaseResolutionX, BaseResolutionY);
 //surface_resize(application_surface,sizeX,sizeY);
 //global.Xoffset=(global.MonitorW-sizeX)/2;
 //global.Yoffset=(global.MonitorH-sizeY)/2;
+
