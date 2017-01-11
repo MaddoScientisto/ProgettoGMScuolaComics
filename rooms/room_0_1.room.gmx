@@ -3,8 +3,8 @@
   <caption></caption>
   <width>160</width>
   <height>144</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
+    <w>1008</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>-76</xoffset>
-    <yoffset>-38</yoffset>
+    <page>2</page>
+    <xoffset>-62</xoffset>
+    <yoffset>-73</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -59,7 +59,6 @@
     <instance objName="obj_gunBlock1" x="32" y="48" name="inst_77E487BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gunBlock1" x="32" y="32" name="inst_5EE2171B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_healthUpgrade" x="16" y="96" name="inst_18C47C41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_springBlock" x="80" y="64" name="inst_460504AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="128" y="32" w="16" h="16" xo="16" yo="0" id="10000226" name="inst_0087498C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -168,7 +167,6 @@
     <tile bgName="Tilemap001" x="128" y="48" w="16" h="16" xo="0" yo="0" id="10000222" name="inst_CDAB21EC" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="128" y="64" w="16" h="16" xo="0" yo="0" id="10000223" name="inst_BB9312D4" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="128" y="80" w="16" h="16" xo="0" yo="0" id="10000224" name="inst_803ACA7E" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="96" y="112" w="16" h="16" xo="0" yo="0" id="10000225" name="inst_C66F40D4" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

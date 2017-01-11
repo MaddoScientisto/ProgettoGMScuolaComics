@@ -3,8 +3,8 @@
   <caption></caption>
   <width>160</width>
   <height>144</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>920</w>
+    <w>1016</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>4</page>
-    <xoffset>-166</xoffset>
-    <yoffset>-216</yoffset>
+    <page>0</page>
+    <xoffset>97</xoffset>
+    <yoffset>-64</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="Tilemap001" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -53,6 +53,9 @@
   <instances>
     <instance objName="RoomManager" x="-16" y="16" name="inst_D577F04B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tutorial" x="16" y="32" name="inst_A2826B3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="120" y="120" name="inst_B053C90A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="136" y="104" name="inst_FC743852" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="112" y="120" name="inst_D739A927" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="32" y="32" w="16" h="16" xo="16" yo="0" id="10000037" name="inst_0042E03A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

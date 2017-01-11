@@ -32,6 +32,7 @@
       <sprite>sprites\Block</sprite>
       <sprite>sprites\spr_gunBlock1</sprite>
     </sprites>
+    <sprite>sprites\spr_halfBlock</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
@@ -94,6 +95,8 @@
       <object>objects\obj_gunBlock1</object>
     </objects>
     <object>objects\obj_healthUpgrade</object>
+    <object>objects\object27</object>
+    <object>objects\obj_halfBlock</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>

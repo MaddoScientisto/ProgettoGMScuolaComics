@@ -3,8 +3,8 @@
   <caption></caption>
   <width>160</width>
   <height>144</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>944</w>
+    <w>992</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>58</xoffset>
-    <yoffset>-13</yoffset>
+    <xoffset>99</xoffset>
+    <yoffset>-86</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -60,6 +60,18 @@
     <instance objName="obj_turret" x="64" y="112" name="inst_DCF388F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gunBlock1" x="96" y="64" name="inst_6E7593D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_healthUpgrade" x="128" y="80" name="inst_06EB5F64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="136" y="48" name="inst_ADE02882" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="128" y="48" name="inst_3595BB8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="120" y="56" name="inst_EB71BEB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="112" y="56" name="inst_90EE33D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="48" y="88" name="inst_9A1E0206" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="96" y="16" name="inst_3AD72C50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="104" y="16" name="inst_E7DFF59D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="80" y="16" name="inst_15384548" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="88" y="16" name="inst_60C5B706" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="136" y="40" name="inst_8704BCCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="128" y="40" name="inst_4DF8BFF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="120" y="48" name="inst_1775B746" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="0" y="32" w="16" h="16" xo="16" yo="0" id="10001244" name="inst_03172EE2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -113,13 +125,12 @@
     <tile bgName="Tilemap001" x="64" y="96" w="16" h="16" xo="16" yo="0" id="10001312" name="inst_7C73E87A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="64" y="80" w="16" h="16" xo="16" yo="0" id="10001313" name="inst_5A6346C6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="48" y="80" w="16" h="16" xo="16" yo="0" id="10001314" name="inst_E6242FD1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="80" y="16" w="16" h="16" xo="16" yo="0" id="10001430" name="inst_A93DCC23" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="0" y="16" w="16" h="16" xo="0" yo="0" id="10001197" name="inst_E5FA660A" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="16" y="16" w="16" h="16" xo="0" yo="0" id="10001198" name="inst_853F328D" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="32" y="16" w="16" h="16" xo="0" yo="0" id="10001199" name="inst_8D3D8C29" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="48" y="16" w="16" h="16" xo="0" yo="0" id="10001200" name="inst_DE7C143D" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="64" y="16" w="16" h="16" xo="0" yo="0" id="10001201" name="inst_45EB6522" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="80" y="16" w="16" h="16" xo="0" yo="0" id="10001203" name="inst_7925BAF3" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="96" y="16" w="16" h="16" xo="0" yo="0" id="10001204" name="inst_DB505178" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="144" y="16" w="16" h="16" xo="0" yo="0" id="10001205" name="inst_720EEA77" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="144" y="32" w="16" h="16" xo="0" yo="0" id="10001206" name="inst_44BF9703" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="144" y="48" w="16" h="16" xo="0" yo="0" id="10001207" name="inst_42F8BDA2" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -147,8 +158,6 @@
     <tile bgName="Tilemap001" x="80" y="80" w="16" h="16" xo="0" yo="0" id="10001241" name="inst_C147EC69" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="80" y="96" w="16" h="16" xo="0" yo="0" id="10001242" name="inst_1F702315" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="80" y="112" w="16" h="16" xo="0" yo="0" id="10001243" name="inst_9B842452" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="112" y="48" w="16" h="16" xo="0" yo="0" id="10001420" name="inst_FE275F65" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="128" y="32" w="16" h="16" xo="0" yo="0" id="10001421" name="inst_DD0EC7C4" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
