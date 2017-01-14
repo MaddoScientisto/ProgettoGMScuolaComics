@@ -113,6 +113,7 @@ room_speed = 60;
           <argument>
             <kind>1</kind>
             <string>HealthPickups = ds_map_create();
+MapGrid = ds_grid_create(10, 10);
 StartSetup(2);
 </string>
           </argument>

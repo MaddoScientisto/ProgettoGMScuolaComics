@@ -27,6 +27,10 @@
             <kind>1</kind>
             <string>    // Initialise your object here
     instance_create(0,0,Hud);
+    if (!instance_exists(MinimapController))
+    {
+        instance_create(0,0,MinimapController);
+    }
     CreateCollisions(MapSnapX, MapSnapY, SolidLayer, Wall);
     
     var player = instance_create(GameManager.PlayerStartX,GameManager.PlayerStartY,Player);
