@@ -27,9 +27,36 @@
             <kind>1</kind>
             <string>event_inherited();
 VerticalSpeed = 2;
-MinY = 16;
-MaxY = 130;
+MinY = 16+16;
+MaxY = 130-16;
 Health = 10;
+
+if (GameManager.BossDefeated )
+instance_destroy();
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>with (obj_bossWall)
+instance_destroy();
 </string>
           </argument>
         </arguments>
@@ -88,8 +115,7 @@ if (y&lt;MinY)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with (obj_bossWall)
-instance_destroy();
+            <string>GameManager.BossDefeated = true;
 </string>
           </argument>
         </arguments>

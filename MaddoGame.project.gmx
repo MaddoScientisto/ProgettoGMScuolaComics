@@ -25,6 +25,7 @@
     <sprite>sprites\sprite15</sprite>
     <sprite>sprites\spr_turret</sprite>
     <sprite>sprites\spr_healthBar</sprite>
+    <sprite>sprites\spr_healthBarEmpty</sprite>
     <sprite>sprites\spr_healthPickup</sprite>
     <sprite>sprites\spr_healthUpgrade</sprite>
     <sprite>sprites\spr_gun</sprite>
@@ -33,6 +34,7 @@
       <sprite>sprites\spr_gunBlock1</sprite>
     </sprites>
     <sprite>sprites\spr_halfBlock</sprite>
+    <sprite>sprites\spr_savePoint</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
@@ -55,6 +57,11 @@
     <scripts name="Array">
       <script>scripts\InitArray.gml</script>
     </scripts>
+    <scripts name="Save data">
+      <script>scripts\LoadGame.gml</script>
+      <script>scripts\SaveGame.gml</script>
+    </scripts>
+    <script>scripts\UpdateManager.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\pixelfont</font>
@@ -87,16 +94,22 @@
     <objects name="Bullets">
       <object>objects\obj_homingBullet</object>
     </objects>
-    <object>objects\obj_health</object>
     <object>objects\obj_gun</object>
     <objects name="Blocks">
       <object>objects\Wall</object>
       <object>objects\obj_bossWall</object>
       <object>objects\obj_gunBlock1</object>
+      <object>objects\obj_halfBlock</object>
     </objects>
-    <object>objects\obj_healthUpgrade</object>
     <object>objects\object27</object>
-    <object>objects\obj_halfBlock</object>
+    <objects name="Collectibles">
+      <object>objects\obj_healthUpgrade</object>
+      <object>objects\obj_health</object>
+      <object>objects\obj_savePoint</object>
+    </objects>
+    <objects name="Minimap">
+      <object>objects\MinimapController</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>

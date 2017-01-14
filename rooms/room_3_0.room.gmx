@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>984</w>
+    <w>1016</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -26,7 +26,7 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>1</page>
+    <page>0</page>
     <xoffset>-131</xoffset>
     <yoffset>-124</yoffset>
   </makerSettings>
@@ -53,6 +53,7 @@
   <instances>
     <instance objName="RoomManager" x="-16" y="0" name="inst_1D0C128B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_health" x="96" y="112" name="inst_B2F31440" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_savePoint" x="48" y="80" name="inst_AD0A7E8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="0" y="16" w="16" h="16" xo="16" yo="0" id="10000661" name="inst_B094F780" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -14,6 +14,8 @@ GameManager.MaxHealth = 3;
 
 GameManager.GunLevel = 0;
 
+GameManager.BossDefeated = false;
+
 //GameManager.HealthPickups[99] = 0;
 //InitArray(GameManager.HealthPickups,99);
 ds_map_clear(GameManager.HealthPickups);

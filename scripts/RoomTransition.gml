@@ -24,13 +24,7 @@ else if (dir == Directions.up) {
     GameManager.PlayerStartX = Player.x;
 }
 
-GameManager.GravityMode = Player.GravityMode;
-GameManager.PlayerVspeed = Player.VerticalSpeed;
-GameManager.HasHighJump = Player.HasHighJump;
-GameManager.Health = Player.Health;
-GameManager.MaxHealth = Player.MaxHealth;
-
-GameManager.GunLevel = Player.GunLevel;
+UpdateManager();
 
 var newMapName = "room_"+string(GameManager.MapX)+"_"+string(GameManager.MapY);
 var newMap = asset_get_index(newMapName);

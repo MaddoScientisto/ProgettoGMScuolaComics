@@ -149,7 +149,7 @@
  // Shooting
  
  if (IsKeyPressed(Keys.action2) &amp;&amp; GunLevel&gt; 0) {
-     var bullet = instance_create(x,y,obj_bullet);
+     var bullet = instance_create(x,y+6,obj_bullet);
      //bullet.CurrentDirection = CurrentDirection;
      //with (bullet)
      //{

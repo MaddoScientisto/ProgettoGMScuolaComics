@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>    // Initialise your object here
-    
+    uiTextStartX = 0;
+    uiTextStartY = -2;
 </string>
           </argument>
         </arguments>
@@ -86,17 +87,27 @@
         //draw_text(64, 0, "GameManagers = " + string(instance_number(GameManager)));
     }
     
-    draw_text(0,0,"Pos: " + string(GameManager.MapX) + ", " + string(GameManager.MapY));
+    draw_text(uiTextStartX,uiTextStartY,"Pos: " + string(GameManager.MapX) + ", " + string(GameManager.MapY));
     if (Player.HasHighJump)
     {
         draw_sprite(spr_highJumpBoots,0,144,0);
     }
     
+    if (Player.GunLevel == 1)
+    {
+        draw_sprite(spr_gun,0,144-16,0);
+    }
+    
 //    draw_text(0,8,"Health: " + string(Player.Health));
-    draw_text(0,8,"Health:");
+    draw_text(uiTextStartX,uiTextStartY+8,"Health:");
+    for (var i = 0; i &lt; Player.MaxHealth; i++)
+    {
+        draw_sprite(spr_healthBarEmpty,0,uiTextStartX+32+(2*i),uiTextStartY+8);
+    }
+    
     for (var i = 0; i &lt; Player.Health; i++)
     {
-        draw_sprite(spr_healthBar,0,32+(2*i),8);
+        draw_sprite(spr_healthBar,0,uiTextStartX+32+(2*i),uiTextStartY+8);
     }
     
 </string>

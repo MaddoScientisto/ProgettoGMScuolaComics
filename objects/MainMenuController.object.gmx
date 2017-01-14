@@ -55,6 +55,20 @@
         NewGameSetup();
         room_goto(GetRoomNumber("DefaultRoom"));
     }
+    if (IsKeyPressed(Keys.action2))
+    {
+        NewGameSetup();
+        LoadGame();
+        var newMapName = "room_"+string(GameManager.MapX)+"_"+string(GameManager.MapY);
+        
+        var newMap = asset_get_index(newMapName);
+        if (newMap == -1)
+        {
+            newMap = 0;
+        }
+        
+        room_goto(newMap);
+    }
     else if (keyboard_check_pressed(vk_up))
     {
         StartScale+=1;
@@ -91,11 +105,11 @@
             <string>    // Draw to the screen here
 //    draw_self();
 draw_set_font(pixelfont);
-draw_text(16,16, "Press Z to start");
-draw_text(16,32, "Up: Increase");
-draw_text(16,48, "screen scale");
-draw_text(16,64, "Down: Decrease");
-draw_text(16,80, "screen scale");
+draw_text(16,16, "Press Z to start, X to load");
+draw_text(16,32, "Up: Increase screen scale");
+//draw_text(16,48, "screen scale");
+draw_text(16,64, "Down: Decrease screen scale");
+//draw_text(16,80, "screen scale");
 
 </string>
           </argument>
