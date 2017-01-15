@@ -37,6 +37,8 @@ GridRecH = 4;
 GridSeparatorX = 2;
 GridSeparatorY = 2;
 
+Visible = false;
+
 MapGrid = GameManager.MapGrid;
 </string>
           </argument>
@@ -83,7 +85,8 @@ MapGrid = GameManager.MapGrid;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>for(var i = 0; i &lt; GridWidth; i++)
+            <string>if (Visible)
+for(var i = 0; i &lt; GridWidth; i++)
 {
     for (var j = 0; j &lt; GridHeight; j++)
     {
