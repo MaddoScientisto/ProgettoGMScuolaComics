@@ -110,6 +110,7 @@
     <objects name="Minimap">
       <object>objects\MinimapController</object>
     </objects>
+    <object>objects\obj_playerGun</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>

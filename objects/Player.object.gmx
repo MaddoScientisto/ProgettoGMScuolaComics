@@ -44,6 +44,8 @@
     InvulnerabilityTimer = 100;
     
     GunLevel = 0;
+    
+
 </string>
           </argument>
         </arguments>
