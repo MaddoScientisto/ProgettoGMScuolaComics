@@ -27,6 +27,17 @@
             <kind>1</kind>
             <string>    // Initialise your object here
     StartScale = 1;
+    
+global.FirstGamePad = 0;
+var gp_num = gamepad_get_device_count();
+for (var i = 0; i &lt; gp_num; i++;)
+{
+    if (gamepad_is_connected(i))
+    {
+        global.FirstGamePad = i;
+        break;
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -50,7 +61,7 @@
           <argument>
             <kind>1</kind>
             <string>    // This is called once every frame
-    if (IsKeyPressed(Keys.action1)) 
+    if (IsKeyPressed(Keys.action1) || gamepad_button_check_pressed(global.FirstGamePad, gp_start)) 
     {
         NewGameSetup();
         room_goto(GetRoomNumber("DefaultRoom"));
@@ -110,7 +121,26 @@ draw_text(16,32, "Up: Increase screen scale");
 //draw_text(16,48, "screen scale");
 draw_text(16,64, "Down: Decrease screen scale");
 //draw_text(16,80, "screen scale");
+var gamepads = gamepad_get_device_count();
 
+
+
+var gp_num = gamepad_get_device_count();
+for (var i = 0; i &lt; gp_num; i++;)
+   {
+   if (gamepad_is_connected(i))
+    {
+    draw_text(8 * i,88, string(i));
+     
+     }
+     else {
+     
+     //gp[i] = false;
+     }
+   }
+
+draw_text(16,80,"Connected GamePads: " + string(gamepads));
+draw_text(16,96, "First Gamepad: " + string(global.FirstGamePad));
 </string>
           </argument>
         </arguments>

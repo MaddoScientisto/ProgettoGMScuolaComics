@@ -3,8 +3,8 @@
   <caption></caption>
   <width>160</width>
   <height>144</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1000</w>
+    <w>1016</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>-1</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-141</xoffset>
-    <yoffset>-172</yoffset>
+    <xoffset>-79</xoffset>
+    <yoffset>-74</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -52,7 +52,10 @@
   </views>
   <instances>
     <instance objName="RoomManager" x="-16" y="16" name="inst_21392090" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_savePoint" x="80" y="112" name="inst_08381879" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="112" y="64" name="inst_E5DC257C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="120" y="64" name="inst_C58608E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="128" y="112" name="inst_7B993FC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="136" y="112" name="inst_3F195689" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="0" y="16" w="16" h="16" xo="16" yo="0" id="10000831" name="inst_2F2DB9E2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -91,6 +94,8 @@
     <tile bgName="Tilemap001" x="144" y="96" w="16" h="16" xo="16" yo="0" id="10000885" name="inst_1975622F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="128" y="96" w="16" h="16" xo="16" yo="0" id="10000886" name="inst_DEEE19BB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="128" y="128" w="16" h="16" xo="16" yo="0" id="10000888" name="inst_D281D344" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="128" y="112" w="16" h="16" xo="16" yo="0" id="10000889" name="inst_8B4215E4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="112" y="112" w="16" h="16" xo="16" yo="0" id="10000890" name="inst_35530E93" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="96" y="112" w="16" h="16" xo="16" yo="0" id="10000891" name="inst_82F924BD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="80" y="112" w="16" h="16" xo="16" yo="0" id="10000892" name="inst_57FA06B3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="64" y="112" w="16" h="16" xo="16" yo="0" id="10000893" name="inst_6D46DA72" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -133,8 +138,6 @@
     <tile bgName="Tilemap001" x="112" y="64" w="16" h="16" xo="16" yo="0" id="10000940" name="inst_F49D6AD6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="112" y="80" w="16" h="16" xo="16" yo="0" id="10000941" name="inst_77BDE4F7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="128" y="80" w="16" h="16" xo="16" yo="0" id="10000942" name="inst_D0ACF84F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="112" y="112" w="16" h="16" xo="32" yo="0" id="10001494" name="inst_3F16B176" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="128" y="112" w="16" h="16" xo="48" yo="0" id="10001495" name="inst_429484CB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="0" y="128" w="16" h="16" xo="0" yo="0" id="10000943" name="inst_13A5DE21" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="16" y="128" w="16" h="16" xo="0" yo="0" id="10000944" name="inst_7EE9CEE3" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="32" y="128" w="16" h="16" xo="0" yo="0" id="10000945" name="inst_818B39C9" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -146,8 +149,6 @@
     <tile bgName="Tilemap001" x="144" y="80" w="16" h="16" xo="0" yo="0" id="10000955" name="inst_D30E8F1D" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="144" y="32" w="16" h="16" xo="0" yo="0" id="10000958" name="inst_F0E7BF2D" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="144" y="16" w="16" h="16" xo="0" yo="0" id="10000959" name="inst_16430A60" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="128" y="16" w="16" h="16" xo="0" yo="0" id="10000960" name="inst_A7DCE1B5" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="112" y="16" w="16" h="16" xo="0" yo="0" id="10000961" name="inst_5AC0433D" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="96" y="16" w="16" h="16" xo="0" yo="0" id="10000962" name="inst_EC47DC85" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="80" y="16" w="16" h="16" xo="0" yo="0" id="10000963" name="inst_1CFF607C" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="64" y="16" w="16" h="16" xo="0" yo="0" id="10000964" name="inst_EF314B6A" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -155,14 +156,52 @@
     <tile bgName="Tilemap001" x="32" y="16" w="16" h="16" xo="0" yo="0" id="10000966" name="inst_F7420F24" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="16" y="16" w="16" h="16" xo="0" yo="0" id="10000967" name="inst_C9B7B5D6" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="0" y="16" w="16" h="16" xo="0" yo="0" id="10000968" name="inst_8E66630B" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="0" y="80" w="16" h="16" xo="0" yo="0" id="10000973" name="inst_0D28E6D4" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="0" y="32" w="16" h="16" xo="0" yo="0" id="10001007" name="inst_86DDE93A" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="144" y="64" w="16" h="16" xo="0" yo="0" id="10001008" name="inst_C317605E" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="144" y="48" w="16" h="16" xo="0" yo="0" id="10001009" name="inst_C0645D8D" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="144" y="96" w="16" h="16" xo="0" yo="0" id="10001423" name="inst_C297D102" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="144" y="112" w="16" h="16" xo="0" yo="0" id="10001424" name="inst_7297900B" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="0" y="64" w="16" h="16" xo="0" yo="0" id="10001425" name="inst_FB72531A" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="0" y="48" w="16" h="16" xo="0" yo="0" id="10001426" name="inst_A5EBA21A" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="96" y="32" w="16" h="16" xo="0" yo="0" id="10001436" name="inst_F307CD5B" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="96" y="48" w="16" h="16" xo="0" yo="0" id="10001437" name="inst_B929224E" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="96" y="64" w="16" h="16" xo="0" yo="0" id="10001438" name="inst_EF7A1C0E" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="96" y="80" w="16" h="16" xo="0" yo="0" id="10001439" name="inst_97F01442" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="96" y="96" w="16" h="16" xo="0" yo="0" id="10001440" name="inst_082E2F0F" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="96" y="112" w="16" h="16" xo="0" yo="0" id="10001441" name="inst_B90E79CF" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="16" y="32" w="16" h="16" xo="0" yo="0" id="10001442" name="inst_1F794AD0" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="32" y="32" w="16" h="16" xo="0" yo="0" id="10001443" name="inst_0386E1F0" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="48" y="32" w="16" h="16" xo="0" yo="0" id="10001444" name="inst_7C485D1D" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="64" y="32" w="16" h="16" xo="0" yo="0" id="10001445" name="inst_E4038A6A" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="80" y="32" w="16" h="16" xo="0" yo="0" id="10001446" name="inst_38411A54" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="32" y="48" w="16" h="16" xo="0" yo="0" id="10001450" name="inst_229858D4" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="16" y="48" w="16" h="16" xo="0" yo="0" id="10001451" name="inst_4A2EA7C0" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="16" y="64" w="16" h="16" xo="0" yo="0" id="10001452" name="inst_3FD2FA41" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="0" y="64" w="16" h="16" xo="0" yo="0" id="10001453" name="inst_BE09A94F" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="0" y="80" w="16" h="16" xo="0" yo="0" id="10001454" name="inst_0A917AB5" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="0" y="96" w="16" h="16" xo="0" yo="0" id="10001455" name="inst_97022DEA" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="0" y="112" w="16" h="16" xo="0" yo="0" id="10001456" name="inst_1462BD30" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="16" y="112" w="16" h="16" xo="0" yo="0" id="10001457" name="inst_FC55C4BF" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="16" y="96" w="16" h="16" xo="0" yo="0" id="10001458" name="inst_EFBE3F3E" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="16" y="80" w="16" h="16" xo="0" yo="0" id="10001459" name="inst_B6CCD093" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="32" y="112" w="16" h="16" xo="0" yo="0" id="10001464" name="inst_A5941C59" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="32" y="96" w="16" h="16" xo="0" yo="0" id="10001465" name="inst_DFF1CE74" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="32" y="80" w="16" h="16" xo="0" yo="0" id="10001466" name="inst_A4531C17" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="32" y="64" w="16" h="16" xo="0" yo="0" id="10001467" name="inst_72EFEA7A" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="48" y="48" w="16" h="16" xo="0" yo="0" id="10001469" name="inst_54C112B0" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="48" y="64" w="16" h="16" xo="0" yo="0" id="10001470" name="inst_EB4AFC2A" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="48" y="96" w="16" h="16" xo="0" yo="0" id="10001474" name="inst_72580AA5" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="48" y="80" w="16" h="16" xo="0" yo="0" id="10001475" name="inst_C25B3F61" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="64" y="48" w="16" h="16" xo="0" yo="0" id="10001477" name="inst_2F79CE9C" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="64" y="64" w="16" h="16" xo="0" yo="0" id="10001478" name="inst_9F909D71" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="64" y="80" w="16" h="16" xo="0" yo="0" id="10001479" name="inst_3DD1E79C" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="48" y="112" w="16" h="16" xo="0" yo="0" id="10001482" name="inst_97411F20" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="64" y="112" w="16" h="16" xo="0" yo="0" id="10001483" name="inst_76AC265F" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="64" y="96" w="16" h="16" xo="0" yo="0" id="10001484" name="inst_C91ECFDB" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="80" y="48" w="16" h="16" xo="0" yo="0" id="10001487" name="inst_2101992D" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="80" y="64" w="16" h="16" xo="0" yo="0" id="10001488" name="inst_63029D81" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="80" y="80" w="16" h="16" xo="0" yo="0" id="10001489" name="inst_35DF53B4" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="80" y="96" w="16" h="16" xo="0" yo="0" id="10001490" name="inst_5C9A7ECA" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="80" y="112" w="16" h="16" xo="0" yo="0" id="10001491" name="inst_9A9AE6ED" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

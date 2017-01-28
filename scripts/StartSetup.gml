@@ -19,3 +19,5 @@ display_set_gui_size(BaseResolutionX, BaseResolutionY);
 //global.Xoffset=(global.MonitorW-sizeX)/2;
 //global.Yoffset=(global.MonitorH-sizeY)/2;
 
+// Trova il primo gamepad
+
