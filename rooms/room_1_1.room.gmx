@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1008</w>
+    <w>1000</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>40</xoffset>
-    <yoffset>199</yoffset>
+    <xoffset>-25</xoffset>
+    <yoffset>111</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -53,8 +53,6 @@
   <instances>
     <instance objName="RoomManager" x="0" y="0" name="inst_1838B646" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turret" x="128" y="32" name="inst_6DD241B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_halfBlock" x="56" y="120" name="inst_1096D046" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_halfBlock" x="48" y="120" name="inst_8B6351DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_halfBlock" x="56" y="72" name="inst_BEBA07B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_halfBlock" x="56" y="64" name="inst_0EAEBAFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_halfBlock" x="56" y="56" name="inst_53B57F1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -66,6 +64,11 @@
     <instance objName="obj_halfBlock" x="120" y="64" name="inst_B705F960" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_halfBlock" x="104" y="136" name="inst_6825C706" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_halfBlock" x="96" y="136" name="inst_037BF58B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="64" y="104" name="inst_108ABC42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="88" y="64" name="inst_A2E72F98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_halfBlock" x="88" y="56" name="inst_D7029C66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_jumpTutorial" x="48" y="96" name="inst_F3A2CF17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_jumpTutorial2" x="32" y="96" name="inst_F5E48AE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="0" y="0" w="16" h="16" xo="16" yo="0" id="10001027" name="inst_FB7FA549" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

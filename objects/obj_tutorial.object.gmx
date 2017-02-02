@@ -52,7 +52,7 @@ textY = 32;
             <string>draw_text(textX,textY,"WASD = MOVE");
 draw_text(textX,textY+8,"Up, Down, Left, Right = MOVE");
 draw_text(textX,textY+16,"Z = Jump (Hold to jump higher)");
-draw_text(textX,textY+24,"X = Shoot");
+//draw_text(textX,textY+24,"X = Shoot");
 //draw_text(24,64,"C = (Debug) Toggle gravity mode");
 </string>
           </argument>

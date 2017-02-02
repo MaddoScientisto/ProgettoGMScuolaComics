@@ -29,7 +29,7 @@
 VerticalSpeed = 2;
 MinY = 16+16;
 MaxY = 130-16;
-Health = 10;
+Health = 3;
 
 if (GameManager.BossDefeated )
 instance_destroy();

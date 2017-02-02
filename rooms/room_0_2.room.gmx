@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1000</w>
+    <w>1016</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-96</xoffset>
-    <yoffset>17</yoffset>
+    <xoffset>-69</xoffset>
+    <yoffset>137</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -53,7 +53,7 @@
   <instances>
     <instance objName="RoomManager" x="0" y="0" name="inst_0CB1354D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turret" x="16" y="32" name="inst_7B2520AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_gun" x="128" y="112" name="inst_E027F524" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gun" x="24" y="112" name="inst_E027F524" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_springBlock" x="96" y="128" name="inst_33F105AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_halfBlock" x="120" y="80" name="inst_2EB9C905" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_halfBlock" x="120" y="88" name="inst_BC455BF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

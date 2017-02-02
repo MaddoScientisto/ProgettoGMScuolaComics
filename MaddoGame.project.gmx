@@ -8,21 +8,15 @@
     <sound>sound\music</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\PlayerDown</sprite>
-    <sprite>sprites\spr_playerUp</sprite>
     <sprite>sprites\HudBackground</sprite>
     <sprite>sprites\EmptySprite</sprite>
     <sprite>sprites\HudSprite</sprite>
-    <sprite>sprites\spr_playerRight</sprite>
-    <sprite>sprites\spr_playerLeft</sprite>
-    <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_tutorial</sprite>
     <sprite>sprites\spr_springBlock</sprite>
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_highJumpBoots</sprite>
     <sprite>sprites\spr_spikes</sprite>
     <sprite>sprites\spr_theEnd</sprite>
-    <sprite>sprites\sprite15</sprite>
     <sprite>sprites\spr_turret</sprite>
     <sprite>sprites\spr_healthBar</sprite>
     <sprite>sprites\spr_healthBarEmpty</sprite>
@@ -35,6 +29,20 @@
     </sprites>
     <sprite>sprites\spr_halfBlock</sprite>
     <sprite>sprites\spr_savePoint</sprite>
+    <sprite>sprites\sprite25</sprite>
+    <sprites name="Player">
+      <sprite>sprites\PlayerDown</sprite>
+      <sprite>sprites\spr_playerUp</sprite>
+      <sprite>sprites\spr_playerRight</sprite>
+      <sprite>sprites\spr_playerLeft</sprite>
+    </sprites>
+    <sprites name="Bullets">
+      <sprite>sprites\spr_bullet</sprite>
+      <sprite>sprites\spr_flare</sprite>
+    </sprites>
+    <sprite>sprites\spr_blueArrow</sprite>
+    <sprite>sprites\spr_jumpTutorial</sprite>
+    <sprite>sprites\spr_jumpTutorial2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
@@ -78,7 +86,6 @@
     <object>objects\obj_tutorial</object>
     <object>objects\obj_springBlock</object>
     <object>objects\Collectible</object>
-    <object>objects\obj_highJumpBoots</object>
     <object>objects\obj_hurt</object>
     <object>objects\obj_spikes</object>
     <object>objects\obj_endOfDemoSign</object>
@@ -106,11 +113,15 @@
       <object>objects\obj_healthUpgrade</object>
       <object>objects\obj_health</object>
       <object>objects\obj_savePoint</object>
+      <object>objects\obj_highJumpBoots</object>
     </objects>
     <objects name="Minimap">
       <object>objects\MinimapController</object>
     </objects>
     <object>objects\obj_playerGun</object>
+    <object>objects\obj_gunTutorial</object>
+    <object>objects\obj_jumpTutorial</object>
+    <object>objects\obj_jumpTutorial2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>
@@ -126,6 +137,7 @@
     <room>rooms\room_6_0</room>
     <room>rooms\room_6_1</room>
     <room>rooms\room_6_2</room>
+    <room>rooms\room_5_2</room>
     <room>rooms\room_1_1</room>
     <room>rooms\room_1_2</room>
     <room>rooms\room_0_2</room>

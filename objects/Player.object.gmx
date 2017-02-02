@@ -343,7 +343,7 @@ draw_sprite(sprite_index, image_index, floor(x), floor(y));
 
 if (Invulnerable)
 {
-    if (floor(InvulnerabilityTimer)%2 == 0)
+    if (floor(InvulnerabilityTimer)%6 == 0)
     {
         image_alpha = 0;
     }
