@@ -23,6 +23,16 @@ else if (dir == Directions.up) {
     GameManager.PlayerStartY = room_height - 16;
     GameManager.PlayerStartX = Player.x;
 }
+else if (dir == Directions.dimension)
+{
+    if (GameManager.CurrentDimension == "room")
+        GameManager.CurrentDimension = "past";
+    else
+        GameManager.CurrentDimension = "room";
+        
+        GameManager.PlayerStartX = Player.x;
+        GameManager.PlayerStartY = Player.y;
+}
 
 UpdateManager();
 

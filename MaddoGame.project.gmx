@@ -29,7 +29,7 @@
     </sprites>
     <sprite>sprites\spr_halfBlock</sprite>
     <sprite>sprites\spr_savePoint</sprite>
-    <sprite>sprites\sprite25</sprite>
+    <sprite>sprites\spr_portal</sprite>
     <sprites name="Player">
       <sprite>sprites\PlayerDown</sprite>
       <sprite>sprites\spr_playerUp</sprite>
@@ -125,6 +125,7 @@
     <object>objects\obj_gunTutorial</object>
     <object>objects\obj_jumpTutorial</object>
     <object>objects\obj_jumpTutorial2</object>
+    <object>objects\obj_portal</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>
@@ -141,6 +142,8 @@
     <room>rooms\room_6_1</room>
     <room>rooms\room_6_2</room>
     <room>rooms\room_5_2</room>
+    <room>rooms\room_4_2</room>
+    <room>rooms\past_4_2</room>
     <room>rooms\room_1_1</room>
     <room>rooms\room_1_2</room>
     <room>rooms\room_0_2</room>

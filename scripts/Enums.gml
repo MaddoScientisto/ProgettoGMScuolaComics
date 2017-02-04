@@ -4,7 +4,8 @@ enum Directions {
    down,
    left,
    right,
-   none
+   none,
+   dimension
    }
 
 enum Keys {

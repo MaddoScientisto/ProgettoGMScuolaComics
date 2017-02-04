@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
+    <w>1000</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>-1</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-85</xoffset>
-    <yoffset>-83</yoffset>
+    <page>0</page>
+    <xoffset>-154</xoffset>
+    <yoffset>54</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -58,6 +58,8 @@
     <instance objName="obj_gunBlock1" x="80" y="64" name="inst_F4BE0B31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gunBlock1" x="96" y="64" name="inst_E3DB7BEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gunBlock1" x="112" y="64" name="inst_DD0CB296" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_portal" x="16" y="96" name="inst_E7A0D06B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_savePoint" x="96" y="112" name="inst_08A4F51E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="0" y="16" w="16" h="16" xo="16" yo="0" id="10000831" name="inst_2F2DB9E2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -177,8 +179,14 @@
     <tile bgName="Tilemap001" x="128" y="16" w="16" h="16" xo="0" yo="0" id="10001510" name="inst_8BF1787E" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="112" y="16" w="16" h="16" xo="0" yo="0" id="10001511" name="inst_DEE11047" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="112" y="32" w="16" h="16" xo="0" yo="0" id="10001512" name="inst_2DC2A1A8" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="80" y="112" w="16" h="16" xo="0" yo="0" id="10001513" name="inst_45D3FFA1" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tilemap001" x="64" y="112" w="16" h="16" xo="0" yo="0" id="10001514" name="inst_54846472" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="0" y="96" w="16" h="16" xo="0" yo="0" id="10001521" name="inst_14734BE5" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="0" y="112" w="16" h="16" xo="0" yo="0" id="10001522" name="inst_96D3D922" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="64" y="16" w="16" h="16" xo="0" yo="0" id="10001523" name="inst_D25B16F7" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="80" y="16" w="16" h="16" xo="0" yo="0" id="10001524" name="inst_6B459EE9" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="48" y="32" w="16" h="16" xo="0" yo="0" id="10001525" name="inst_A4FC7CDF" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="64" y="32" w="16" h="16" xo="0" yo="0" id="10001526" name="inst_C8026FD8" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="80" y="32" w="16" h="16" xo="0" yo="0" id="10001527" name="inst_DE39ED05" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="96" y="32" w="16" h="16" xo="0" yo="0" id="10001528" name="inst_E5259553" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
