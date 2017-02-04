@@ -26,6 +26,8 @@
     <sprites name="Blocks">
       <sprite>sprites\Block</sprite>
       <sprite>sprites\spr_gunBlock1</sprite>
+      <sprite>sprites\spr_gunBlock2</sprite>
+      <sprite>sprites\sprite31</sprite>
     </sprites>
     <sprite>sprites\spr_halfBlock</sprite>
     <sprite>sprites\spr_savePoint</sprite>
@@ -43,6 +45,7 @@
     <sprite>sprites\spr_blueArrow</sprite>
     <sprite>sprites\spr_jumpTutorial</sprite>
     <sprite>sprites\spr_jumpTutorial2</sprite>
+    <sprite>sprites\spr_tree</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
@@ -73,6 +76,11 @@
     <scripts name="Map">
       <script>scripts\GetMapName.gml</script>
     </scripts>
+    <scripts name="Screen">
+      <script>scripts\screen_init.gml</script>
+      <script>scripts\screen_begin.gml</script>
+      <script>scripts\screen_end.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\pixelfont</font>
@@ -85,6 +93,7 @@
     <object>objects\Hud</object>
     <object>objects\obj_player_platform</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_bullet2</object>
     <object>objects\SolidObject</object>
     <object>objects\obj_tutorial</object>
     <object>objects\obj_springBlock</object>
@@ -104,12 +113,13 @@
     <objects name="Bullets">
       <object>objects\obj_homingBullet</object>
     </objects>
-    <object>objects\obj_gun</object>
     <objects name="Blocks">
       <object>objects\Wall</object>
       <object>objects\obj_bossWall</object>
       <object>objects\obj_gunBlock1</object>
+      <object>objects\obj_gunBlock2</object>
       <object>objects\obj_halfBlock</object>
+      <object>objects\obj_tree</object>
     </objects>
     <object>objects\object27</object>
     <objects name="Collectibles">
@@ -117,6 +127,8 @@
       <object>objects\obj_health</object>
       <object>objects\obj_savePoint</object>
       <object>objects\obj_highJumpBoots</object>
+      <object>objects\obj_gun</object>
+      <object>objects\obj_flareGun</object>
     </objects>
     <objects name="Minimap">
       <object>objects\MinimapController</object>
@@ -126,6 +138,7 @@
     <object>objects\obj_jumpTutorial</object>
     <object>objects\obj_jumpTutorial2</object>
     <object>objects\obj_portal</object>
+    <object>objects\ScreenManager</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>
@@ -144,6 +157,8 @@
     <room>rooms\room_5_2</room>
     <room>rooms\room_4_2</room>
     <room>rooms\past_4_2</room>
+    <room>rooms\past_5_2</room>
+    <room>rooms\past_5_1</room>
     <room>rooms\room_1_1</room>
     <room>rooms\room_1_2</room>
     <room>rooms\room_0_2</room>

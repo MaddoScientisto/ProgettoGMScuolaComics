@@ -156,21 +156,50 @@
      //with (bullet)
      //{
         //bullet.speed = 5;
+        
         bullet.CurrentDirection = CurrentDirection;
 
      //}
  }
     
-if (IsKeyPressed(Keys.cancel)) {
+if (IsKeyPressed(Keys.cancel) &amp;&amp; GunLevel&gt; 1) {
    
-        GravityMode = !GravityMode;
-
+        //GravityMode = !GravityMode;
+var bullet = instance_create(x,y+6, obj_bullet);
+bullet.CurrentDirection = Directions.up;
 
 }
 
 if (Health &lt;= 0) {
     room_goto(0);
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_flareGun">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>with (other)
+instance_destroy();
+
+if (GunLevel &lt; 2)
+GunLevel = 2;
 </string>
           </argument>
         </arguments>
