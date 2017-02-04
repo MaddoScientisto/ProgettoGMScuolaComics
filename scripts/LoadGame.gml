@@ -14,6 +14,8 @@ GameManager.HasHighJump = ini_read_real(playerSection, "HasHighJump", GameManage
 GameManager.MaxHealth = ini_read_real(playerSection, "MaxHealth", GameManager.MaxHealth);
 GameManager.GunLevel = ini_read_real(playerSection, "GunLevel", GameManager.GunLevel);
 
+GameManager.TreeDestroyed = ini_read_real(bossSection, "TreeDestroyed", GameManager.TreeDestroyed);
+
 ds_map_read(GameManager.HealthPickups, ini_read_string(playerSection, "CollectedHealth", ds_map_write(GameManager.HealthPickups)));
 
 GameManager.BossDefeated = ini_read_real(bossSection, "BossDefeated", GameManager.BossDefeated);

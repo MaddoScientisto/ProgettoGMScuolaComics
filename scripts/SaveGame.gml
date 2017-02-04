@@ -20,6 +20,7 @@ ini_write_real(playerSection, "GravityMode", GameManager.GravityMode);
 ini_write_real(playerSection, "HasHighJump", GameManager.HasHighJump);
 ini_write_real(playerSection, "MaxHealth", GameManager.MaxHealth);
 ini_write_real(playerSection, "GunLevel", GameManager.GunLevel);
+ini_write_real(bossSection, "TreeDestroyed", GameManager.TreeDestroyed);
 ini_write_string(playerSection, "CollectedHealth", ds_map_write(GameManager.HealthPickups));
 
 ini_write_real(bossSection, "BossDefeated", GameManager.BossDefeated);

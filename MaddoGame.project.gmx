@@ -46,6 +46,8 @@
     <sprite>sprites\spr_jumpTutorial</sprite>
     <sprite>sprites\spr_jumpTutorial2</sprite>
     <sprite>sprites\spr_tree</sprite>
+    <sprite>sprites\spr_treeYoung</sprite>
+    <sprite>sprites\spr_portalTutorial</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
@@ -129,16 +131,20 @@
       <object>objects\obj_highJumpBoots</object>
       <object>objects\obj_gun</object>
       <object>objects\obj_flareGun</object>
+      <object>objects\obj_gun2</object>
     </objects>
     <objects name="Minimap">
       <object>objects\MinimapController</object>
     </objects>
     <object>objects\obj_playerGun</object>
     <object>objects\obj_gunTutorial</object>
+    <object>objects\obj_flareGunTutorial</object>
     <object>objects\obj_jumpTutorial</object>
     <object>objects\obj_jumpTutorial2</object>
     <object>objects\obj_portal</object>
     <object>objects\ScreenManager</object>
+    <object>objects\obj_youngTree</object>
+    <object>objects\obj_portalTutorial</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>
@@ -152,13 +158,22 @@
     <room>rooms\room_4_0</room>
     <room>rooms\room_5_0</room>
     <room>rooms\room_6_0</room>
+    <room>rooms\past_6_0</room>
+    <room>rooms\room_7_0</room>
+    <room>rooms\past_7_0</room>
     <room>rooms\room_6_1</room>
     <room>rooms\room_6_2</room>
+    <room>rooms\room_7_2</room>
+    <room>rooms\past_6_2</room>
     <room>rooms\room_5_2</room>
     <room>rooms\room_4_2</room>
+    <room>rooms\past_5_1</room>
     <room>rooms\past_4_2</room>
     <room>rooms\past_5_2</room>
-    <room>rooms\past_5_1</room>
+    <room>rooms\past_4_1</room>
+    <room>rooms\past_4_0</room>
+    <room>rooms\room_5_1</room>
+    <room>rooms\past_6_1</room>
     <room>rooms\room_1_1</room>
     <room>rooms\room_1_2</room>
     <room>rooms\room_0_2</room>

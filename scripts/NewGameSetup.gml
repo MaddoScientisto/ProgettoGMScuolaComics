@@ -17,7 +17,7 @@ GameManager.GunLevel = 0;
 GameManager.BossDefeated = false;
 
 GameManager.CurrentDimension = "room";
-
+GameManager.TreeDestroyed = false;
 //GameManager.HealthPickups[99] = 0;
 //InitArray(GameManager.HealthPickups,99);
 ds_map_clear(GameManager.HealthPickups);

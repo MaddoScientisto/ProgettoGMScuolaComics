@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(0,0,obj_flareGunTutorial);
+            <string>//instance_create(0,0,obj_flareGunTutorial);
 </string>
           </argument>
         </arguments>
@@ -50,7 +50,7 @@
             <kind>1</kind>
             <string>
 var color = c_blue;
-draw_text_colour(x-8,y+8,"FLARE GUN", color,color,color,color,1);
+draw_text_colour(x-8,y+8,"LV 2 GUN", color,color,color,color,1);
 </string>
           </argument>
         </arguments>
