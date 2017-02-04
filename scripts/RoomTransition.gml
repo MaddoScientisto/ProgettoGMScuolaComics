@@ -26,13 +26,8 @@ else if (dir == Directions.up) {
 
 UpdateManager();
 
-var newMapName = "room_"+string(GameManager.MapX)+"_"+string(GameManager.MapY);
-var newMap = asset_get_index(newMapName);
-if (newMap == -1)
-{
-    newMap = 0;
-}
+var newMap = GetMapName(GameManager.MapX, GameManager.MapY, GameManager.CurrentDimension);
+
 // todo: controllo di esistenza
-//room_goto(GetRoomNumber(newMapName));
 room_goto(newMap); // todo: non funziona in html5, conviene fare una tabella di corrispondenza
 
