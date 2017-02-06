@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>992</w>
+    <w>1024</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>-1</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-81</xoffset>
-    <yoffset>-27</yoffset>
+    <xoffset>-53</xoffset>
+    <yoffset>57</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -56,8 +56,14 @@
     <instance objName="obj_gunBlock1" x="48" y="48" name="inst_FDA5B489" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gunBlock1" x="64" y="48" name="inst_931E93BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gunBlock1" x="80" y="48" name="inst_0D797B24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_halfBlock" x="48" y="88" name="inst_94EBF380" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_halfBlock" x="88" y="64" name="inst_79223BEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OneWaySolid2" x="24" y="48" name="inst_BF456FD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OneWaySolid2" x="16" y="48" name="inst_5A6BA071" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_oneWayBlockUp" x="88" y="64" name="inst_84AA08A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_oneWayBlockUp" x="80" y="64" name="inst_AE14C001" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_oneWayBlockUp" x="72" y="64" name="inst_3BB0457C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_oneWayBlockUp" x="64" y="64" name="inst_DF54F93F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_oneWayBlockUp" x="56" y="64" name="inst_14BEAD29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_oneWayBlockUp" x="48" y="64" name="inst_35E1B5FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="144" y="16" w="16" h="16" xo="16" yo="0" id="10000842" name="inst_0DDB2050" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

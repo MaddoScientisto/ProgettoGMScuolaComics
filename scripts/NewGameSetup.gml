@@ -1,8 +1,8 @@
 GameManager.MapX = 0;
 GameManager.MapY = 0;
 
-GameManager.PlayerStartX = 128;
-GameManager.PlayerStartY = 64;
+GameManager.PlayerStartX = 128-16;
+GameManager.PlayerStartY = 64+32;
 
 GameManager.GravityMode = true;
 GameManager.PlayerVspeed = 0;
