@@ -24,12 +24,14 @@
     <sprite>sprites\spr_gun</sprite>
     <sprites name="Blocks">
       <sprite>sprites\Block</sprite>
+      <sprite>sprites\spr_invisibleBlock</sprite>
       <sprite>sprites\spr_gunBlock1</sprite>
       <sprite>sprites\spr_gunBlock2</sprite>
       <sprite>sprites\OneWayBlock2</sprite>
       <sprite>sprites\spr_oneWayBlockUp</sprite>
+      <sprite>sprites\spr_halfBlock</sprite>
+      <sprite>sprites\spr_invisibleHalfBlock</sprite>
     </sprites>
-    <sprite>sprites\spr_halfBlock</sprite>
     <sprite>sprites\spr_savePoint</sprite>
     <sprite>sprites\spr_portal</sprite>
     <sprites name="Player">
@@ -57,6 +59,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
+    <background>background\bkg_lab</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -133,6 +136,7 @@
       <object>objects\obj_gunBlock1</object>
       <object>objects\obj_gunBlock2</object>
       <object>objects\obj_halfBlock</object>
+      <object>objects\obj_invisibleHalfBlock</object>
       <object>objects\obj_tree</object>
       <object>objects\obj_oneWayBlockUp</object>
       <object>objects\OneWaySolid2</object>
@@ -192,6 +196,7 @@
     <room>rooms\past_4_2</room>
     <room>rooms\past_5_2</room>
     <room>rooms\past_4_1</room>
+    <room>rooms\room_4_1</room>
     <room>rooms\past_4_0</room>
     <room>rooms\room_5_1</room>
     <room>rooms\past_6_1</room>

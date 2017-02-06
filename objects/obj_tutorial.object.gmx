@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>textX = 16+4;
-textY = 32;
+textY = 144-32;
+textColor = c_white;
 </string>
           </argument>
         </arguments>
@@ -49,9 +50,10 @@ textY = 32;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(textX,textY,"WASD = MOVE");
-draw_text(textX,textY+8,"Up, Down, Left, Right = MOVE");
-draw_text(textX,textY+16,"Z = Jump (Hold to jump higher)");
+            <string>
+draw_text_colour(textX,textY,"WASD = MOVE",textColor,textColor,textColor,textColor,1);
+draw_text_colour(textX,textY+8,"Up, Down, Left, Right = MOVE",textColor,textColor,textColor,textColor,1);
+draw_text_colour(textX,textY+16,"Z = Jump (Hold to jump higher)",textColor,textColor,textColor,textColor,1);
 //draw_text(textX,textY+24,"X = Shoot");
 //draw_text(24,64,"C = (Debug) Toggle gravity mode");
 </string>
