@@ -8,6 +8,7 @@ GameManager.MapY = ini_read_real(roomSection, "RoomY", GameManager.MapY);
 
 GameManager.PlayerStartX = ini_read_real(roomSection, "PosX", GameManager.PlayerStartX);
 GameManager.PlayerStartY = ini_read_real(roomSection, "PosY", GameManager.PlayerStartY);
+GameManager.CurrentDimension = ini_read_real(roomSection, "CurrentDimension", GameManager.CurrentDimension); 
 
 GameManager.GravityMode = ini_read_real(playerSection, "GravityMode", GameManager.GravityMode);
 GameManager.HasHighJump = ini_read_real(playerSection, "HasHighJump", GameManager.HasHighJump);

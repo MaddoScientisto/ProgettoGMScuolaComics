@@ -1,11 +1,13 @@
 GameManager.MapX = 0;
 GameManager.MapY = 0;
 
-GameManager.PlayerStartX = 32;
-GameManager.PlayerStartY = 32;
+GameManager.PlayerStartX = 128;
+GameManager.PlayerStartY = 64;
 
 GameManager.GravityMode = true;
 GameManager.PlayerVspeed = 0;
+
+GameManager.CurrentDirection = Directions.left;
 
 GameManager.HasHighJump = false;
 
@@ -16,7 +18,7 @@ GameManager.GunLevel = 0;
 
 GameManager.BossDefeated = false;
 
-GameManager.CurrentDimension = "room";
+GameManager.CurrentDimension = "past";
 GameManager.TreeDestroyed = false;
 //GameManager.HealthPickups[99] = 0;
 //InitArray(GameManager.HealthPickups,99);

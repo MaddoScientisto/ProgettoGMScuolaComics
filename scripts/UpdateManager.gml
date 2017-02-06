@@ -1,4 +1,4 @@
-
+GameManager.CurrentDirection = Player.CurrentDirection;
 GameManager.GravityMode = Player.GravityMode;
 GameManager.PlayerVspeed = Player.VerticalSpeed;
 GameManager.HasHighJump = Player.HasHighJump;

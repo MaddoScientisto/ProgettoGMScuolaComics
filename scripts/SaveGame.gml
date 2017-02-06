@@ -15,6 +15,7 @@ ini_write_real(roomSection, "RoomY", GameManager.MapY);
 
 ini_write_real(roomSection, "PosX", startX);
 ini_write_real(roomSection, "PosY", startY);
+ini_write_real(roomSection, "CurrentDimension", GameManager.CurrentDimension);
 
 ini_write_real(playerSection, "GravityMode", GameManager.GravityMode);
 ini_write_real(playerSection, "HasHighJump", GameManager.HasHighJump);
