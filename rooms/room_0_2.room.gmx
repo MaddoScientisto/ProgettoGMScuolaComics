@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-37</xoffset>
-    <yoffset>-36</yoffset>
+    <page>0</page>
+    <xoffset>25</xoffset>
+    <yoffset>48</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -79,6 +79,8 @@
     <instance objName="obj_oneWayBlockUp" x="96" y="112" name="inst_0B72239F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_oneWayBlockUp" x="88" y="120" name="inst_1EA918D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_oneWayBlockUp" x="96" y="120" name="inst_44420E5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="112" y="112" name="inst_22CB3D84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="EnemyMarker" x="48" y="112" name="inst_F006AAB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="32" y="80" w="16" h="16" xo="16" yo="0" id="10001360" name="inst_E746B4BE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -50,7 +50,8 @@ shootEvery = 60;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>timer += 1* global.DeltaTime;
+            <string>event_inherited();
+timer += 1* global.DeltaTime;
 
 if (timer &gt; shootEvery) {
     timer = 0;

@@ -13,7 +13,6 @@
     <sprite>sprites\HudSprite</sprite>
     <sprite>sprites\spr_tutorial</sprite>
     <sprite>sprites\spr_springBlock</sprite>
-    <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_highJumpBoots</sprite>
     <sprite>sprites\spr_spikes</sprite>
     <sprite>sprites\spr_theEnd</sprite>
@@ -50,6 +49,11 @@
     <sprite>sprites\spr_treeYoung</sprite>
     <sprite>sprites\spr_portalTutorial</sprite>
     <sprite>sprites\spr_16</sprite>
+    <sprites name="Enemies">
+      <sprite>sprites\spr_enemy</sprite>
+      <sprite>sprites\spr_enemy2</sprite>
+      <sprite>sprites\spr_boss</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
@@ -111,9 +115,14 @@
     </objects>
     <objects name="Enemies">
       <object>objects\obj_enemy</object>
+      <object>objects\obj_enemyFollow</object>
+      <object>objects\obj_enemy2</object>
+      <object>objects\obj_enemyVertical</object>
+      <object>objects\obj_enemyVertical2</object>
       <object>objects\obj_enemyParent</object>
       <object>objects\obj_turret</object>
       <object>objects\obj_boss</object>
+      <object>objects\EnemyMarker</object>
     </objects>
     <objects name="Bullets">
       <object>objects\obj_homingBullet</object>

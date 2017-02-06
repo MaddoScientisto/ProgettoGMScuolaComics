@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>event_inherited();
-Direction = Directions.right;
+Direction = 1;
 BaseSpeed = 1;
 </string>
           </argument>
@@ -50,28 +50,16 @@ BaseSpeed = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var curSpeed = BaseSpeed * global.DeltaTime;
-//curSpeed *= global.DeltaTime;
+            <string>event_inherited();
+var curSpeed = BaseSpeed * Direction * global.DeltaTime;
+//curSpeed *= global.Del taTime;
 
-if (Direction == Directions.right &amp;&amp; place_meeting(x+curSpeed,y,SolidObject))
+x+= curSpeed;
+
+if (place_meeting(x+curSpeed,y,SolidObject) || place_meeting(x+curSpeed,y,EnemyMarker))
 {
-    Directions = Directions.left;
     x-=curSpeed;
-}
-else if (Direction == Directions.left &amp;&amp; place_meeting(x-curSpeed,y,SolidObject))
-{
-    Direction = Directions.right;
-    x-=curSpeed;
-}
-
-
-if (Direction == Directions.right)
-{
-    MoveObject(curSpeed, Direction, true);
-}
-else if (Direction == Directions.left)
-{
-    MoveObject(-curSpeed, Direction, true);
+    Direction *= -1;
 }
 
 

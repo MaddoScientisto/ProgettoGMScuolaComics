@@ -380,6 +380,7 @@ if (Invulnerable = false)
     var damage = other.Damage;
     Health -= damage;
     Invulnerable = true;
+    
 }
 
 </string>
@@ -415,6 +416,7 @@ else
     image_speed = 0;
     image_index = 0;
 }
+
 if (CurrentDirection == Directions.down)
 {
     sprite_index = PlayerDown;
@@ -433,23 +435,28 @@ else if (CurrentDirection == Directions.up)
 }
 
 
-draw_sprite(sprite_index, image_index, floor(x), floor(y));
+var alpha;
 
 if (Invulnerable)
 {
     if (floor(InvulnerabilityTimer)%6 == 0)
     {
-        image_alpha = 0;
+    alpha = 0;
+//        image_alpha = 0;
     }
     else
     {
+    alpha = 1;
         image_alpha = 1;
     }
 }
 else 
 {
-    image_alpha = 1;
+alpha = 1;
+//    image_alpha = 1;
 }
+//draw_sprite(sprite_index, image_index, floor(x), floor(y));
+draw_sprite_ext(sprite_index, image_index, floor(x), floor(y), image_xscale, image_yscale, 0, c_white, alpha);
 
 
 //if (!Invulnerable || (Invulnerable &amp;&amp; InvulnerabilityTimer%2 == 0))
