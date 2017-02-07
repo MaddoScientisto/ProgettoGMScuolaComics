@@ -25,5 +25,6 @@ ini_write_real(bossSection, "TreeDestroyed", GameManager.TreeDestroyed);
 ini_write_string(playerSection, "CollectedHealth", ds_map_write(GameManager.HealthPickups));
 
 ini_write_real(bossSection, "BossDefeated", GameManager.BossDefeated);
+ini_write_real(bossSection, "BossDefeated2", GameManager.BossDefeated2);
 
 ini_close();

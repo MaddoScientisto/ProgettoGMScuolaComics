@@ -17,6 +17,7 @@ GameManager.MaxHealth = 3;
 GameManager.GunLevel = 0;
 
 GameManager.BossDefeated = false;
+GameManager.BossDefeated2 = false;
 
 GameManager.CurrentDimension = "past";
 GameManager.TreeDestroyed = false;

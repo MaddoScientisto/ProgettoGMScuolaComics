@@ -61,7 +61,9 @@
     <background>background\Tilemap001</background>
     <background>background\bkg_lab</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\FinalBossPath</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\CalculateDeltaTime.gml</script>
     <script>scripts\Enums.gml</script>
@@ -125,6 +127,7 @@
       <object>objects\obj_enemyParent</object>
       <object>objects\obj_turret</object>
       <object>objects\obj_boss</object>
+      <object>objects\obj_boss2</object>
       <object>objects\EnemyMarker</object>
     </objects>
     <objects name="Bullets">
@@ -189,6 +192,9 @@
     <room>rooms\room_6_1</room>
     <room>rooms\room_6_2</room>
     <room>rooms\room_7_2</room>
+    <room>rooms\past_7_2</room>
+    <room>rooms\room_7_3</room>
+    <room>rooms\room_6_3</room>
     <room>rooms\past_6_2</room>
     <room>rooms\room_5_2</room>
     <room>rooms\room_4_2</room>

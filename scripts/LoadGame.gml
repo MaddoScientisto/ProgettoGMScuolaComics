@@ -20,5 +20,6 @@ GameManager.TreeDestroyed = ini_read_real(bossSection, "TreeDestroyed", GameMana
 ds_map_read(GameManager.HealthPickups, ini_read_string(playerSection, "CollectedHealth", ds_map_write(GameManager.HealthPickups)));
 
 GameManager.BossDefeated = ini_read_real(bossSection, "BossDefeated", GameManager.BossDefeated);
+GameManager.BossDefeated2 = ini_read_real(bossSection, "BossDefeated2", GameManager.BossDefeated2);
 
 ini_close();
