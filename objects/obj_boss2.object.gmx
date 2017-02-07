@@ -30,7 +30,7 @@ VerticalSpeed = 2;
 MinY = 16+16;
 MaxY = 130-16-16;
 Health = 15;
-
+Damage = 2;
 if (GameManager.BossDefeated2 )
 instance_destroy();
 
@@ -57,7 +57,7 @@ path_start(FinalBossPath,1,path_action_restart,true);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with (obj_bossWall)
+            <string>with (obj_bossWall2)
 instance_destroy();
 </string>
           </argument>

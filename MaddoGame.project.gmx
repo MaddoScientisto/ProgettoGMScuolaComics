@@ -136,6 +136,7 @@
     <objects name="Blocks">
       <object>objects\Wall</object>
       <object>objects\obj_bossWall</object>
+      <object>objects\obj_bossWall2</object>
       <object>objects\obj_gunBlock1</object>
       <object>objects\obj_gunBlock2</object>
       <object>objects\obj_halfBlock</object>
