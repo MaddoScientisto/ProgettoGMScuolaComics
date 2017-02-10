@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-192</xoffset>
-    <yoffset>-81</yoffset>
+    <xoffset>-208</xoffset>
+    <yoffset>-201</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -75,8 +75,7 @@
     <instance objName="obj_oneWayBlockUp" x="72" y="56" name="inst_79157037" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_oneWayBlockUp" x="72" y="48" name="inst_21E76CCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_oneWayBlockUp" x="64" y="48" name="inst_6ADDE164" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_oneWayBlockUp" x="64" y="40" name="inst_7EA7BBE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_oneWayBlockUp" x="72" y="40" name="inst_11E3E958" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_oneWayBlockUp" x="64" y="40" name="inst_B29B1AB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="128" y="32" w="16" h="16" xo="16" yo="0" id="10000226" name="inst_0087498C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
