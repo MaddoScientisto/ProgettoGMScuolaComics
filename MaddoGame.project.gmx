@@ -56,6 +56,7 @@
       <sprite>sprites\spr_enemy2</sprite>
       <sprite>sprites\spr_boss</sprite>
     </sprites>
+    <sprite>sprites\spr_timeMachine</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
@@ -172,6 +173,7 @@
       <object>objects\obj_portal</object>
       <object>objects\obj_invisiblePortal</object>
       <object>objects\obj_portalBase</object>
+      <object>objects\obj_timeMachine</object>
     </objects>
   </objects>
   <rooms name="rooms">
