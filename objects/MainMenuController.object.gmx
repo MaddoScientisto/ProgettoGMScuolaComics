@@ -118,11 +118,20 @@ for (var i = 0; i &lt; gp_num; i++;)
             <string>    // Draw to the screen here
 //    draw_self();
 draw_set_font(pixelfont);
-draw_text(16,16, "Press Z to start, X to load");
-draw_text(16,32, "Up: Increase screen scale");
-//draw_text(16,48, "screen scale");
-draw_text(16,64, "Down: Decrease screen scale");
-//draw_text(16,80, "screen scale");
+draw_sprite(spr_buttonZ,0,16,16-4);
+draw_text(32+8,16, "Start");
+
+draw_sprite(spr_buttonX,0,16,32-4);
+draw_text(32+8,32, "Load");
+
+draw_sprite(spr_buttonUp, 0, 16,32+16-4)
+draw_text(32+8,32+16, "Increase screen scale");
+
+draw_sprite(spr_buttonDown, 0, 16,32+16+16-4)
+draw_text(32+8,32+16+16, "Decrease screen scale");
+
+//draw_text(32+8,32+16+8, "Down: Decrease screen scale");
+
 var gamepads = gamepad_get_device_count();
 
 
@@ -141,8 +150,8 @@ for (var i = 0; i &lt; gp_num; i++;)
      }
    }
 
-draw_text(16,80,"Connected GamePads: " + string(gamepads));
-draw_text(16,96, "First Gamepad: " + string(global.FirstGamePad));
+//draw_text(16,80,"Connected GamePads: " + string(gamepads));
+//draw_text(16,96, "First Gamepad: " + string(global.FirstGamePad));
 </string>
           </argument>
         </arguments>

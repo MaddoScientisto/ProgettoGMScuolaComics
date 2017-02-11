@@ -51,9 +51,15 @@ textColor = c_white;
           <argument>
             <kind>1</kind>
             <string>
-draw_text_colour(textX,textY,"WASD = MOVE",textColor,textColor,textColor,textColor,1);
-draw_text_colour(textX,textY+8,"Up, Down, Left, Right = MOVE",textColor,textColor,textColor,textColor,1);
-draw_text_colour(textX,textY+16,"Z = Jump (Hold to jump higher)",textColor,textColor,textColor,textColor,1);
+draw_sprite(spr_buttonLeft,0,textX, textY);
+draw_sprite(spr_buttonUp,0,textX+16,textY);
+draw_sprite(spr_buttonRight, 0, textX+32, textY);
+draw_text_colour(textX+32+16+4,textY+4, "Move", textColor, textColor, textColor, textColor, 1);
+//draw_text_colour(textX,textY,"WASD = MOVE",textColor,textColor,textColor,textColor,1);
+//draw_text_colour(textX,textY+8,"Up, Down, Left, Right = MOVE",textColor,textColor,textColor,textColor,1);
+
+draw_sprite(spr_buttonZ,0,textX, textY+16);
+draw_text_colour(textX+16+4,textY+16+4,"Jump (Hold to jump higher)",textColor,textColor,textColor,textColor,1);
 //draw_text(textX,textY+24,"X = Shoot");
 //draw_text(24,64,"C = (Debug) Toggle gravity mode");
 </string>

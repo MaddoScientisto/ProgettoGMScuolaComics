@@ -49,7 +49,6 @@
     <sprite>sprites\spr_jumpTutorial2</sprite>
     <sprite>sprites\spr_tree</sprite>
     <sprite>sprites\spr_treeYoung</sprite>
-    <sprite>sprites\spr_portalTutorial</sprite>
     <sprite>sprites\spr_16</sprite>
     <sprites name="Enemies">
       <sprite>sprites\spr_enemy</sprite>
@@ -57,10 +56,20 @@
       <sprite>sprites\spr_boss</sprite>
     </sprites>
     <sprite>sprites\spr_timeMachine</sprite>
+    <sprites name="Buttons">
+      <sprite>sprites\spr_buttonX</sprite>
+      <sprite>sprites\spr_buttonZ</sprite>
+      <sprite>sprites\spr_buttonUp</sprite>
+      <sprite>sprites\spr_buttonDown</sprite>
+      <sprite>sprites\spr_buttonRight</sprite>
+      <sprite>sprites\spr_buttonLeft</sprite>
+      <sprite>sprites\spr_portalTutorial</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\Tilemap001</background>
     <background>background\bkg_lab</background>
+    <background>background\bkg_titleScreen</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\FinalBossPath</path>
