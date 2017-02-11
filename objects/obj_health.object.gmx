@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>t = 0;
+text = "HP+";
 </string>
           </argument>
         </arguments>
@@ -79,7 +80,10 @@ if (t % 8 = 0)
     color = c_blue;
 else
     color = c_red;
-draw_text_colour(x,y+8,"HP+", color,color,color,color,1);
+    
+var txtX = (x + (sprite_width / 2)) - ((string_length(text)*5)/2)
+    
+draw_text_colour(txtX,y+8,text, color,color,color,color,1);
 </string>
           </argument>
         </arguments>
