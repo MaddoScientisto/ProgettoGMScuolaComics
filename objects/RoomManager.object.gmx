@@ -32,10 +32,7 @@
         instance_create(0,0,MinimapController);
     }
     CreateCollisions(MapSnapX, MapSnapY, SolidLayer, Wall);
-    if (room_get_name(room) == "past_0_0")
-    {
-        tile_layer_hide(SolidLayer);
-    }
+
     
     var player = instance_create(GameManager.PlayerStartX,GameManager.PlayerStartY,Player);
     player.GravityMode = GameManager.GravityMode;

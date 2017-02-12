@@ -39,6 +39,9 @@
       <sprite>sprites\spr_playerUp</sprite>
       <sprite>sprites\spr_playerRight</sprite>
       <sprite>sprites\spr_playerLeft</sprite>
+      <sprite>sprites\spr_playerDownMaddo</sprite>
+      <sprite>sprites\spr_playerRightMaddo</sprite>
+      <sprite>sprites\spr_playerLeftMaddo</sprite>
     </sprites>
     <sprites name="Bullets">
       <sprite>sprites\spr_bullet</sprite>
@@ -110,10 +113,13 @@
     <font>fonts\pixelfont</font>
   </fonts>
   <objects name="objects">
+    <objects name="Managers">
+      <object>objects\InputManager</object>
+      <object>objects\RoomManager</object>
+      <object>objects\GameManager</object>
+      <object>objects\LabManager</object>
+    </objects>
     <object>objects\Player</object>
-    <object>objects\InputManager</object>
-    <object>objects\RoomManager</object>
-    <object>objects\GameManager</object>
     <object>objects\Hud</object>
     <object>objects\obj_player_platform</object>
     <object>objects\obj_bullet</object>
@@ -223,14 +229,16 @@
     <room>rooms\room_1_2</room>
     <room>rooms\room_0_2</room>
   </rooms>
-  <constants number="7">
+  <constants number="9">
     <constant name="BaseResolutionX">160</constant>
     <constant name="BaseResolutionY">144</constant>
     <constant name="GameScale">4</constant>
     <constant name="TargetFramerate">60</constant>
     <constant name="SolidLayer">-5</constant>
+    <constant name="BackgroundLayer">1000000</constant>
     <constant name="MapSnapX">16</constant>
     <constant name="MapSnapY">16</constant>
+    <constant name="KikkyMode">0</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>

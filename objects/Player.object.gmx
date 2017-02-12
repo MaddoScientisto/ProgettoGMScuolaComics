@@ -428,15 +428,24 @@ else
 
 if (CurrentDirection == Directions.down)
 {
-    sprite_index = PlayerDown;
+    if (KikkyMode == 1)
+        sprite_index = PlayerDown;
+    else
+        sprite_index = spr_playerDownMaddo;
 }
 else if (CurrentDirection == Directions.right)
 {
-    sprite_index = spr_playerRight;
+    if (KikkyMode == 1)
+        sprite_index = spr_playerRight;
+    else
+        sprite_index = spr_playerRightMaddo;
 }
 else if (CurrentDirection == Directions.left)
 {
-    sprite_index = spr_playerLeft;
+    if (KikkyMode == 1)
+        sprite_index = spr_playerLeft;
+    else
+        sprite_index = spr_playerLeftMaddo;
 }
 else if (CurrentDirection == Directions.up)
 {
