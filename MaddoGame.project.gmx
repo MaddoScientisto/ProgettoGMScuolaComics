@@ -238,7 +238,7 @@
     <constant name="BackgroundLayer">1000000</constant>
     <constant name="MapSnapX">16</constant>
     <constant name="MapSnapY">16</constant>
-    <constant name="KikkyMode">1</constant>
+    <constant name="KikkyMode">0</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
