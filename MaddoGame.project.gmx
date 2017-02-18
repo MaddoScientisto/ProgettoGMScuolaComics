@@ -5,7 +5,10 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\music</sound>
+    <sound>sound\mus_overworld</sound>
+    <sound>sound\mus_title</sound>
+    <sound>sound\snd_shoot</sound>
+    <sound>sound\mus_ending</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\HudBackground</sprite>

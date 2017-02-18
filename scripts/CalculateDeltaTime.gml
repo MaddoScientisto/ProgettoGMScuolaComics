@@ -6,4 +6,5 @@ delta = expected_delta_time / delta_time; //Turn this into a ratio
 
 
 global.DeltaTime = delta;
+global.DeltaTime = 1;
 return delta;

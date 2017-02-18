@@ -92,6 +92,24 @@ if (instance_number(GameManager)&gt; 1)
 room_speed = 60;
 
 //instance_create(0,0,ScreenManager);
+
+if (room_get_name(room) == "Start")
+{
+    audio_stop_sound(MusicId);
+    //if (!audio_is_playing(mus_title))
+        MusicId = audio_play_sound(mus_title, 10, true);
+}
+else if (room_get_name(room) == "past_6_3")
+{
+    // credits
+    audio_stop_sound(MusicId);
+    MusicId = audio_play_sound(mus_title, 10, true);
+}
+else 
+{
+    if (!audio_is_playing(mus_overworld))
+        MusicId = audio_play_sound(mus_overworld, 10, true);
+}
 </string>
           </argument>
         </arguments>
@@ -117,6 +135,8 @@ room_speed = 60;
             <string>HealthPickups = ds_map_create();
 MapGrid = ds_grid_create(10, 10);
 StartSetup(2);
+
+MusicId = -1;
 </string>
           </argument>
         </arguments>
