@@ -51,6 +51,7 @@ instance_destroy();
             <kind>1</kind>
             <string>event_inherited();
 other.HasHighJump = true;
+audio_play_sound(snd_collect2,5,false);
 </string>
           </argument>
         </arguments>

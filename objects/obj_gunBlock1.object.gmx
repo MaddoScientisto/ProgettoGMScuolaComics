@@ -25,9 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with (other)
+            <string>audio_play_sound(snd_destroy,5,false);
+with (other)
 instance_destroy();
 instance_destroy();
+
 </string>
           </argument>
         </arguments>

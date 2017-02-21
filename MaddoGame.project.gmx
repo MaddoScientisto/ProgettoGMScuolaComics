@@ -7,8 +7,12 @@
   <sounds name="sound">
     <sound>sound\mus_overworld</sound>
     <sound>sound\mus_title</sound>
+    <sound>sound\snd_collect1</sound>
+    <sound>sound\snd_collect2</sound>
+    <sound>sound\snd_hurt</sound>
     <sound>sound\snd_shoot</sound>
     <sound>sound\mus_ending</sound>
+    <sound>sound\snd_destroy</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\HudBackground</sprite>

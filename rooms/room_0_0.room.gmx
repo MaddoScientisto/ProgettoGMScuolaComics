@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
+    <w>1024</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-224</xoffset>
-    <yoffset>-131</yoffset>
+    <xoffset>-65</xoffset>
+    <yoffset>-12</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="Tilemap001" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -76,6 +76,10 @@
     <instance objName="obj_halfBlock" x="32" y="120" name="inst_6BFF7F57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_portalBase" x="32" y="64" name="inst_962BB4B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemyVertical" x="112" y="80" name="inst_7078DEAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OneWaySolid2" x="64" y="80" name="inst_010E1042" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OneWaySolid2" x="72" y="80" name="inst_6A7F0077" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OneWaySolid2" x="80" y="80" name="inst_D56F8F45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OneWaySolid2" x="88" y="80" name="inst_1A316397" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="32" y="32" w="16" h="16" xo="16" yo="0" id="10000037" name="inst_0042E03A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

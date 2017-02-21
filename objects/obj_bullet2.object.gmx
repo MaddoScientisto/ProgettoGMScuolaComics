@@ -29,6 +29,8 @@
 CurrentDirection = Directions.right;
 
 Damage = 2;
+
+audio_play_sound(snd_shoot,5,false);
 </string>
           </argument>
         </arguments>

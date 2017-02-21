@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
+    <w>1024</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-241</xoffset>
-    <yoffset>-147</yoffset>
+    <xoffset>-201</xoffset>
+    <yoffset>76</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -67,9 +67,8 @@
     <instance objName="obj_halfBlock" x="64" y="104" name="inst_108ABC42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_halfBlock" x="88" y="64" name="inst_A2E72F98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_halfBlock" x="88" y="56" name="inst_D7029C66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_jumpTutorial" x="48" y="96" name="inst_F3A2CF17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_jumpTutorial2" x="32" y="96" name="inst_F5E48AE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_halfBlock" x="88" y="72" name="inst_6E24B98C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_jumpTutorial2" x="32" y="96" name="inst_976D8A7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="0" y="0" w="16" h="16" xo="16" yo="0" id="10001027" name="inst_FB7FA549" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

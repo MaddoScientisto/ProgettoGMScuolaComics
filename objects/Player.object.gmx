@@ -246,6 +246,8 @@ instance_destroy();
 
 if (GunLevel &lt; 3)
 GunLevel = 3;
+
+audio_play_sound(snd_collect2,5,false);
 </string>
           </argument>
         </arguments>
@@ -273,6 +275,8 @@ instance_destroy();
 
 if (GunLevel &lt; 2)
 GunLevel = 2;
+
+audio_play_sound(snd_collect2,5,false);
 </string>
           </argument>
         </arguments>
@@ -300,6 +304,8 @@ instance_destroy();
 
 if (GunLevel == 0)
 GunLevel = 1;
+
+audio_play_sound(snd_collect2,5,false);
 </string>
           </argument>
         </arguments>
@@ -329,7 +335,7 @@ GunLevel = 1;
 
 if (Health &lt; MaxHealth)
 Health += 1;
-
+audio_play_sound(snd_collect1,5,false);
 </string>
           </argument>
         </arguments>
@@ -360,6 +366,7 @@ Health = MaxHealth;
 
 //GameManager.
 ds_map_add(GameManager.HealthPickups,room,true);
+audio_play_sound(snd_collect1,5,false);
 </string>
           </argument>
         </arguments>
@@ -389,7 +396,7 @@ if (Invulnerable = false)
     var damage = other.Damage;
     Health -= damage;
     Invulnerable = true;
-    
+    audio_play_sound(snd_hurt,5,false);
 }
 
 </string>

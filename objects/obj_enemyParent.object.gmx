@@ -99,6 +99,7 @@ if (Invulnerable = false)
 
 if (Health &lt;= 0)
 {
+audio_play_sound(snd_destroy,5,false);
 instance_destroy();
 event_user(0);
 }

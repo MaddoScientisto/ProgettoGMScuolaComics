@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>-85</xoffset>
-    <yoffset>-4</yoffset>
+    <page>2</page>
+    <xoffset>-259</xoffset>
+    <yoffset>21</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -53,7 +53,6 @@
   <instances>
     <instance objName="RoomManager" x="-16" y="0" name="inst_FF593231" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy" x="64" y="112" name="inst_429F805B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_gunBlock1" x="112" y="96" name="inst_65687CF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gunBlock1" x="112" y="80" name="inst_C842F6C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gunBlock1" x="112" y="64" name="inst_86EB34C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gunBlock1" x="112" y="48" name="inst_6CEC56A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -61,6 +60,8 @@
     <instance objName="obj_healthUpgrade" x="64" y="32" name="inst_4F19A12F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_halfBlock" x="56" y="104" name="inst_3D732254" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_halfBlock" x="16" y="104" name="inst_DCD96274" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OneWaySolid2" x="96" y="96" name="inst_3672F82E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OneWaySolid2" x="104" y="96" name="inst_68AE0441" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tilemap001" x="0" y="64" w="16" h="16" xo="16" yo="0" id="10000407" name="inst_CF1E2C46" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -148,6 +149,7 @@
     <tile bgName="Tilemap001" x="80" y="96" w="16" h="16" xo="0" yo="0" id="10000401" name="inst_5ACCFB2B" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="64" y="96" w="16" h="16" xo="0" yo="0" id="10000402" name="inst_4DFBB0A7" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tilemap001" x="96" y="32" w="16" h="16" xo="0" yo="0" id="10000403" name="inst_416DFE7E" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tilemap001" x="112" y="96" w="16" h="16" xo="0" yo="0" id="10002929" name="inst_9AAE0A45" depth="-5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

@@ -28,6 +28,7 @@
             <string>with (other)
 instance_destroy();
 instance_destroy();
+audio_play_sound(snd_destroy,5,false);
 </string>
           </argument>
         </arguments>
