@@ -27,4 +27,6 @@ ini_write_string(playerSection, "CollectedHealth", ds_map_write(GameManager.Heal
 ini_write_real(bossSection, "BossDefeated", GameManager.BossDefeated);
 ini_write_real(bossSection, "BossDefeated2", GameManager.BossDefeated2);
 
+ini_write_real(playerSection, "CollectedPowerUps", GameManager.CollectedPowerUps);
+
 ini_close();

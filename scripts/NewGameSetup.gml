@@ -21,6 +21,8 @@ GameManager.BossDefeated2 = false;
 
 GameManager.CurrentDimension = "past";
 GameManager.TreeDestroyed = false;
+
+GameManager.CollectedPowerUps = 0;
 //GameManager.HealthPickups[99] = 0;
 //InitArray(GameManager.HealthPickups,99);
 ds_map_clear(GameManager.HealthPickups);

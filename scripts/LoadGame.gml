@@ -22,4 +22,5 @@ ds_map_read(GameManager.HealthPickups, ini_read_string(playerSection, "Collected
 GameManager.BossDefeated = ini_read_real(bossSection, "BossDefeated", GameManager.BossDefeated);
 GameManager.BossDefeated2 = ini_read_real(bossSection, "BossDefeated2", GameManager.BossDefeated2);
 
+GameManager.CollectedPowerUps = ini_read_real(playerSection, "CollectedPowerUps", GameManager.CollectedPowerUps);
 ini_close();

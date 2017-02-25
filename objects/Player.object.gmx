@@ -364,6 +364,8 @@ instance_destroy();
 MaxHealth += 1;
 Health = MaxHealth;
 
+GameManager.CollectedPowerUps += 1;
+
 //GameManager.
 ds_map_add(GameManager.HealthPickups,room,true);
 audio_play_sound(snd_collect1,5,false);

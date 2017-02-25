@@ -109,6 +109,8 @@
     {
         draw_sprite(spr_healthBar,0,uiTextStartX+32+(2*i),uiTextStartY+9);
     }
+    var percentage = floor(100 * GameManager.CollectedPowerUps / 7);
+    draw_text(64,0,string(percentage) + "%");
     
 </string>
           </argument>
